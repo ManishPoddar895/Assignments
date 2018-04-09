@@ -26,5 +26,6 @@ end
 
 #untar and Installing java
 execute 'tar' do
-  command 'tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar'
+  command 'tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar.qz'
 end
+
