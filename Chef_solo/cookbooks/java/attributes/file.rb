@@ -6,3 +6,5 @@ default['java']['file']['url'] = 'http://download.oracle.com/otn-pub/java/jdk/8u
 default['java']['file']['owner'] = 'root'
 default['java']['file']['group'] = 'root'
 default['java']['file']['mode']  = '0755'
+
+default['java']['file']['tar'] = 'tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar.qz'
