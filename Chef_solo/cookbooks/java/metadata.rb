@@ -1,1 +1,1 @@
-metadata 'tomcat'
+depends 'tomcat'
