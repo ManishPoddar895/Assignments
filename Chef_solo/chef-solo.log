@@ -1,0 +1,1679 @@
+# Logfile created on 2018-04-09 07:41:12 +0000 by logger.rb/56815
+[2018-04-09T07:41:12+00:00] FATAL: Could not parse the provided JSON file (node.json): lexical error: invalid char in json text.
+                   {   "run_list": [ ""recipe[java::default]"] }
+                     (right here) ------^
+
+[2018-04-09T07:42:17+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T07:42:17+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T07:42:17+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T07:42:17+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T07:42:17+00:00] INFO: Chef-client pid: 23727
+[2018-04-09T07:42:17+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T07:42:18+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T07:42:18+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T07:42:18+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T07:42:18+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T07:42:18+00:00] INFO: Running start handlers
+[2018-04-09T07:42:18+00:00] INFO: Start handlers complete.
+[2018-04-09T07:42:18+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T07:42:18+00:00] INFO: Storing updated cookbooks/java/attributes/file.rb in the cache.
+[2018-04-09T07:42:18+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T07:42:18+00:00] ERROR: Running exception handlers
+[2018-04-09T07:42:18+00:00] ERROR: Exception handlers complete
+[2018-04-09T07:42:18+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T07:42:18+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T07:42:18+00:00] ERROR: undefined method `java_ark' for cookbook: java, recipe: default :Chef::Recipe
+[2018-04-09T07:42:18+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T07:44:29+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T07:44:29+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T07:44:29+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T07:44:29+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T07:44:29+00:00] INFO: Chef-client pid: 24133
+[2018-04-09T07:44:29+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T07:44:30+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T07:44:30+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T07:44:30+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T07:44:30+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T07:44:30+00:00] INFO: Running start handlers
+[2018-04-09T07:44:30+00:00] INFO: Start handlers complete.
+[2018-04-09T07:44:30+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T07:44:30+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T07:44:30+00:00] ERROR: Running exception handlers
+[2018-04-09T07:44:30+00:00] ERROR: Exception handlers complete
+[2018-04-09T07:44:30+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T07:44:30+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T07:44:30+00:00] ERROR: undefined method `url' for Chef::Resource::YumPackage
+[2018-04-09T07:44:30+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T08:09:40+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T08:09:40+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T08:09:40+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T08:09:40+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T08:09:40+00:00] INFO: Chef-client pid: 25695
+[2018-04-09T08:09:40+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T08:09:41+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T08:09:41+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T08:09:41+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T08:09:41+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T08:09:41+00:00] INFO: Running start handlers
+[2018-04-09T08:09:41+00:00] INFO: Start handlers complete.
+[2018-04-09T08:09:41+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T08:09:41+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T08:09:41+00:00] ERROR: Running exception handlers
+[2018-04-09T08:09:41+00:00] ERROR: Exception handlers complete
+[2018-04-09T08:09:41+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T08:09:41+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T08:09:41+00:00] ERROR: /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/cookbooks/java/recipes/default.rb:2: syntax error, unexpected ':', expecting keyword_end
+    version : 1.8.1
+             ^
+/home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/cookbooks/java/recipes/default.rb:2: unexpected fraction part after numeric literal
+    version : 1.8.1
+                 ^
+[2018-04-09T08:09:41+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T08:15:18+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T08:15:18+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T08:15:18+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T08:15:18+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T08:15:18+00:00] INFO: Chef-client pid: 26538
+[2018-04-09T08:15:18+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T08:15:20+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T08:15:20+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T08:15:20+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T08:15:20+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T08:15:20+00:00] INFO: Running start handlers
+[2018-04-09T08:15:20+00:00] INFO: Start handlers complete.
+[2018-04-09T08:15:20+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T08:15:20+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T08:15:20+00:00] INFO: Processing yum_package[java] action install (java::default line 1)
+[2018-04-09T08:15:55+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T08:15:55+00:00] ERROR: Running exception handlers
+[2018-04-09T08:15:55+00:00] ERROR: Exception handlers complete
+[2018-04-09T08:15:55+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T08:15:55+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T08:15:55+00:00] ERROR: yum_package[java] (java::default line 1) had an error: Chef::Exceptions::Package: No candidate version available for java
+[2018-04-09T08:15:56+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T08:18:08+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T08:18:08+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T08:18:08+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T08:18:08+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T08:18:08+00:00] INFO: Chef-client pid: 26963
+[2018-04-09T08:18:08+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T08:18:09+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T08:18:09+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T08:18:09+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T08:18:09+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T08:18:09+00:00] INFO: Running start handlers
+[2018-04-09T08:18:09+00:00] INFO: Start handlers complete.
+[2018-04-09T08:18:09+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T08:18:09+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T08:18:09+00:00] INFO: Processing yum_package[java] action install (java::default line 1)
+[2018-04-09T08:18:44+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T08:18:44+00:00] ERROR: Running exception handlers
+[2018-04-09T08:18:44+00:00] ERROR: Exception handlers complete
+[2018-04-09T08:18:44+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T08:18:44+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T08:18:44+00:00] ERROR: yum_package[java] (java::default line 1) had an error: Chef::Exceptions::Package: No candidate version available for java
+[2018-04-09T08:18:44+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T08:38:42+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T08:38:42+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T08:38:43+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T08:38:43+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T08:38:43+00:00] INFO: Chef-client pid: 28270
+[2018-04-09T08:38:43+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T08:38:44+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T08:38:44+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T08:38:44+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T08:38:44+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T08:38:44+00:00] INFO: Running start handlers
+[2018-04-09T08:38:44+00:00] INFO: Start handlers complete.
+[2018-04-09T08:38:44+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T08:38:44+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T08:38:44+00:00] INFO: Processing remote_file[/var/ec2-user/] action create (java::default line 1)
+[2018-04-09T08:38:45+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T08:38:45+00:00] ERROR: Running exception handlers
+[2018-04-09T08:38:45+00:00] ERROR: Exception handlers complete
+[2018-04-09T08:38:45+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T08:38:45+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T08:38:45+00:00] ERROR: remote_file[/var/ec2-user/] (java::default line 1) had an error: Errno::EISDIR: Is a directory @ rb_sysopen - /var/ec2-user/
+[2018-04-09T08:38:45+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T09:04:05+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:04:05+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:04:05+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:04:05+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:04:05+00:00] INFO: Chef-client pid: 29846
+[2018-04-09T09:04:05+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:04:07+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:04:07+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:04:07+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:04:07+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:04:07+00:00] INFO: Running start handlers
+[2018-04-09T09:04:07+00:00] INFO: Start handlers complete.
+[2018-04-09T09:04:07+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:04:07+00:00] INFO: Processing remote_file[/var/ec2-user/] action create (java::default line 1)
+[2018-04-09T09:04:08+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T09:04:08+00:00] ERROR: Running exception handlers
+[2018-04-09T09:04:08+00:00] ERROR: Exception handlers complete
+[2018-04-09T09:04:08+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T09:04:08+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T09:04:08+00:00] ERROR: remote_file[/var/ec2-user/] (java::default line 1) had an error: Errno::EISDIR: Is a directory @ rb_sysopen - /var/ec2-user/
+[2018-04-09T09:04:08+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T09:06:59+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:06:59+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:06:59+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:06:59+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:06:59+00:00] INFO: Chef-client pid: 30264
+[2018-04-09T09:06:59+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:07:00+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:07:00+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:07:00+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:07:00+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:07:00+00:00] INFO: Running start handlers
+[2018-04-09T09:07:00+00:00] INFO: Start handlers complete.
+[2018-04-09T09:07:00+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:07:00+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T09:07:00+00:00] INFO: Processing remote_file[/home/ec2-user/] action create (java::default line 1)
+[2018-04-09T09:07:00+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T09:07:00+00:00] ERROR: Running exception handlers
+[2018-04-09T09:07:00+00:00] ERROR: Exception handlers complete
+[2018-04-09T09:07:00+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T09:07:00+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T09:07:00+00:00] ERROR: remote_file[/home/ec2-user/] (java::default line 1) had an error: Chef::Exceptions::FileTypeMismatch: File /home/ec2-user/ exists, but is a directory, set force_unlink to true to remove
+[2018-04-09T09:07:00+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T09:08:32+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:08:32+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:08:32+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:08:32+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:08:32+00:00] INFO: Chef-client pid: 30611
+[2018-04-09T09:08:32+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:08:33+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:08:33+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:08:33+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:08:33+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:08:33+00:00] INFO: Running start handlers
+[2018-04-09T09:08:33+00:00] INFO: Start handlers complete.
+[2018-04-09T09:08:33+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:08:33+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T09:08:33+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 1)
+[2018-04-09T09:08:34+00:00] INFO: remote_file[/home/ec2-user/download] created file /home/ec2-user/download
+[2018-04-09T09:08:34+00:00] INFO: remote_file[/home/ec2-user/download] updated file contents /home/ec2-user/download
+[2018-04-09T09:08:34+00:00] INFO: remote_file[/home/ec2-user/download] owner changed to 0
+[2018-04-09T09:08:34+00:00] INFO: remote_file[/home/ec2-user/download] group changed to 0
+[2018-04-09T09:08:34+00:00] INFO: remote_file[/home/ec2-user/download] mode changed to 755
+[2018-04-09T09:08:34+00:00] INFO: Processing execute[tar] action run (java::default line 10)
+[2018-04-09T09:08:34+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T09:08:34+00:00] ERROR: Running exception handlers
+[2018-04-09T09:08:34+00:00] ERROR: Exception handlers complete
+[2018-04-09T09:08:34+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T09:08:34+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T09:08:34+00:00] ERROR: execute[tar] (java::default line 10) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar ----
+STDOUT: 
+STDERR: tar: /home/ec2-user/jdk-8u161-solaris-x64.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+---- End output of tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar ----
+Ran tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar returned 2
+[2018-04-09T09:08:34+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T09:15:37+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:15:37+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:15:37+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:15:37+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:15:37+00:00] INFO: Chef-client pid: 31234
+[2018-04-09T09:15:37+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:15:38+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:15:38+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:15:38+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:15:38+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:15:38+00:00] INFO: Running start handlers
+[2018-04-09T09:15:38+00:00] INFO: Start handlers complete.
+[2018-04-09T09:15:38+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:15:38+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 1)
+[2018-04-09T09:15:39+00:00] INFO: Processing execute[tar] action run (java::default line 10)
+[2018-04-09T09:15:39+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T09:15:39+00:00] ERROR: Running exception handlers
+[2018-04-09T09:15:39+00:00] ERROR: Exception handlers complete
+[2018-04-09T09:15:39+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T09:15:39+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T09:15:39+00:00] ERROR: execute[tar] (java::default line 10) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar ----
+STDOUT: 
+STDERR: tar: /home/ec2-user/jdk-8u161-solaris-x64.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+---- End output of tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar ----
+Ran tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar returned 2
+[2018-04-09T09:15:39+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T09:19:13+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:19:13+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:19:13+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:19:13+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:19:13+00:00] INFO: Chef-client pid: 31687
+[2018-04-09T09:19:13+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:19:14+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:19:14+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:19:14+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:19:14+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:19:14+00:00] INFO: Running start handlers
+[2018-04-09T09:19:14+00:00] INFO: Start handlers complete.
+[2018-04-09T09:19:14+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:19:14+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T09:19:14+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 1)
+[2018-04-09T09:19:15+00:00] INFO: Processing execute[tar] action run (java::default line 10)
+[2018-04-09T09:19:15+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T09:19:15+00:00] ERROR: Running exception handlers
+[2018-04-09T09:19:15+00:00] ERROR: Exception handlers complete
+[2018-04-09T09:19:15+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T09:19:15+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T09:19:15+00:00] ERROR: execute[tar] (java::default line 10) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar ----
+STDOUT: 
+STDERR: tar: /home/ec2-user/jdk-8u161-solaris-x64.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+---- End output of tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar ----
+Ran tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar returned 2
+[2018-04-09T09:19:15+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T09:24:47+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:24:47+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:24:47+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:24:47+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:24:47+00:00] INFO: Chef-client pid: 32235
+[2018-04-09T09:24:47+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:24:48+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:24:48+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:24:48+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:24:48+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:24:48+00:00] INFO: Running start handlers
+[2018-04-09T09:24:48+00:00] INFO: Start handlers complete.
+[2018-04-09T09:24:48+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:24:48+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T09:24:48+00:00] ERROR: Running exception handlers
+[2018-04-09T09:24:48+00:00] ERROR: Exception handlers complete
+[2018-04-09T09:24:48+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T09:24:48+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T09:24:48+00:00] ERROR: Option action must be equal to one of: nothing, run!  You passed :install.
+[2018-04-09T09:24:48+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T09:25:40+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:25:40+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:25:40+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:25:40+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:25:40+00:00] INFO: Chef-client pid: 32552
+[2018-04-09T09:25:40+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:25:41+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:25:41+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:25:41+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:25:41+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:25:41+00:00] INFO: Running start handlers
+[2018-04-09T09:25:41+00:00] INFO: Start handlers complete.
+[2018-04-09T09:25:41+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:25:41+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T09:25:41+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 1)
+[2018-04-09T09:25:42+00:00] INFO: Processing execute[tar] action nothing (java::default line 10)
+[2018-04-09T09:25:42+00:00] INFO: Chef Run complete in 0.76669484 seconds
+[2018-04-09T09:25:42+00:00] INFO: Running report handlers
+[2018-04-09T09:25:42+00:00] INFO: Report handlers complete
+[2018-04-09T09:25:42+00:00] WARN: *****************************************
+[2018-04-09T09:25:42+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T09:25:42+00:00] WARN: *****************************************
+[2018-04-09T09:25:42+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T09:26:47+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:26:47+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:26:47+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:26:47+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:26:47+00:00] INFO: Chef-client pid: 419
+[2018-04-09T09:26:47+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:26:48+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:26:48+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:26:48+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:26:48+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:26:48+00:00] INFO: Running start handlers
+[2018-04-09T09:26:48+00:00] INFO: Start handlers complete.
+[2018-04-09T09:26:48+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:26:48+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 1)
+[2018-04-09T09:26:48+00:00] INFO: Processing execute[tar] action nothing (java::default line 10)
+[2018-04-09T09:26:48+00:00] INFO: Chef Run complete in 0.569748437 seconds
+[2018-04-09T09:26:48+00:00] INFO: Running report handlers
+[2018-04-09T09:26:48+00:00] INFO: Report handlers complete
+[2018-04-09T09:26:48+00:00] WARN: *****************************************
+[2018-04-09T09:26:48+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T09:26:48+00:00] WARN: *****************************************
+[2018-04-09T09:26:48+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T09:27:48+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:27:48+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:27:48+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:27:48+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:27:48+00:00] INFO: Chef-client pid: 765
+[2018-04-09T09:27:48+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:27:49+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:27:49+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:27:49+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:27:49+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:27:49+00:00] INFO: Running start handlers
+[2018-04-09T09:27:49+00:00] INFO: Start handlers complete.
+[2018-04-09T09:27:49+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:27:49+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T09:27:49+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 1)
+[2018-04-09T09:27:50+00:00] INFO: Processing execute[tar] action run (java::default line 10)
+[2018-04-09T09:27:50+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T09:27:50+00:00] ERROR: Running exception handlers
+[2018-04-09T09:27:50+00:00] ERROR: Exception handlers complete
+[2018-04-09T09:27:50+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T09:27:50+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T09:27:50+00:00] ERROR: execute[tar] (java::default line 10) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar ----
+STDOUT: 
+STDERR: tar: /home/ec2-user/jdk-8u161-solaris-x64.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+---- End output of tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar ----
+Ran tar -xvf /home/ec2-user/jdk-8u161-solaris-x64.tar returned 2
+[2018-04-09T09:27:50+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T09:31:46+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T09:31:46+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T09:31:46+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T09:31:46+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T09:31:46+00:00] INFO: Chef-client pid: 1270
+[2018-04-09T09:31:46+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T09:31:47+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T09:31:47+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T09:31:47+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T09:31:47+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T09:31:47+00:00] INFO: Running start handlers
+[2018-04-09T09:31:47+00:00] INFO: Start handlers complete.
+[2018-04-09T09:31:47+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T09:31:47+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T09:31:48+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T09:31:48+00:00] INFO: Processing execute[tar] action run (java::default line 11)
+[2018-04-09T09:31:48+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T09:31:48+00:00] ERROR: Running exception handlers
+[2018-04-09T09:31:48+00:00] ERROR: Exception handlers complete
+[2018-04-09T09:31:48+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T09:31:48+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T09:31:48+00:00] ERROR: execute[tar] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of tar -xvf /home/ec2-user/download/jdk-8u161-solaris-x64.tar ----
+STDOUT: 
+STDERR: tar: /home/ec2-user/download/jdk-8u161-solaris-x64.tar: Cannot open: Not a directory
+tar: Error is not recoverable: exiting now
+---- End output of tar -xvf /home/ec2-user/download/jdk-8u161-solaris-x64.tar ----
+Ran tar -xvf /home/ec2-user/download/jdk-8u161-solaris-x64.tar returned 2
+[2018-04-09T09:31:48+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T10:09:44+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T10:09:44+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T10:09:44+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T10:09:44+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T10:09:44+00:00] INFO: Chef-client pid: 3460
+[2018-04-09T10:09:44+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T10:09:45+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T10:09:45+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T10:09:45+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T10:09:45+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T10:09:45+00:00] INFO: Running start handlers
+[2018-04-09T10:09:45+00:00] INFO: Start handlers complete.
+[2018-04-09T10:09:45+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T10:09:45+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T10:09:45+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T10:09:45+00:00] INFO: Processing execute[tar] action run (java::default line 11)
+[2018-04-09T10:09:45+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T10:09:45+00:00] ERROR: Running exception handlers
+[2018-04-09T10:09:45+00:00] ERROR: Exception handlers complete
+[2018-04-09T10:09:45+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T10:09:45+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T10:09:45+00:00] ERROR: execute[tar] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz ----
+Ran tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz returned 2
+[2018-04-09T10:09:45+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T10:57:49+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T10:57:49+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T10:57:49+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T10:57:49+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T10:57:49+00:00] INFO: Chef-client pid: 6138
+[2018-04-09T10:57:49+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T10:57:51+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T10:57:51+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T10:57:51+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T10:57:51+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T10:57:51+00:00] INFO: Running start handlers
+[2018-04-09T10:57:51+00:00] INFO: Start handlers complete.
+[2018-04-09T10:57:51+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T10:57:51+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T10:57:51+00:00] INFO: Processing execute[tar] action run (java::default line 11)
+[2018-04-09T10:57:51+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T10:57:51+00:00] ERROR: Running exception handlers
+[2018-04-09T10:57:51+00:00] ERROR: Exception handlers complete
+[2018-04-09T10:57:51+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T10:57:51+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T10:57:51+00:00] ERROR: execute[tar] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz ----
+Ran tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz returned 2
+[2018-04-09T10:57:51+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T11:13:52+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T11:13:52+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T11:13:52+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T11:13:52+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T11:13:52+00:00] INFO: Chef-client pid: 7261
+[2018-04-09T11:13:52+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T11:13:54+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T11:13:54+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T11:13:54+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T11:13:54+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T11:13:54+00:00] INFO: Running start handlers
+[2018-04-09T11:13:54+00:00] INFO: Start handlers complete.
+[2018-04-09T11:13:54+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T11:13:54+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T11:13:54+00:00] INFO: Processing execute[tar] action run (java::default line 11)
+[2018-04-09T11:13:54+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T11:13:54+00:00] ERROR: Running exception handlers
+[2018-04-09T11:13:54+00:00] ERROR: Exception handlers complete
+[2018-04-09T11:13:54+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T11:13:54+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T11:13:54+00:00] ERROR: execute[tar] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz ----
+Ran tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz returned 2
+[2018-04-09T11:13:55+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T11:15:51+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T11:15:51+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T11:15:51+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T11:15:51+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T11:15:51+00:00] INFO: Chef-client pid: 7638
+[2018-04-09T11:15:51+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T11:15:52+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T11:15:52+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T11:15:52+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T11:15:52+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T11:15:52+00:00] INFO: Running start handlers
+[2018-04-09T11:15:52+00:00] INFO: Start handlers complete.
+[2018-04-09T11:15:52+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T11:15:52+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T11:15:52+00:00] ERROR: Running exception handlers
+[2018-04-09T11:15:52+00:00] ERROR: Exception handlers complete
+[2018-04-09T11:15:52+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T11:15:52+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T11:15:52+00:00] ERROR: Do not use the command attribute on a bash resource, use the 'code' attribute instead.
+[2018-04-09T11:15:52+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T11:16:53+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T11:16:53+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T11:16:53+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T11:16:53+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T11:16:53+00:00] INFO: Chef-client pid: 7961
+[2018-04-09T11:16:53+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T11:16:55+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T11:16:55+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T11:16:55+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T11:16:55+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T11:16:55+00:00] INFO: Running start handlers
+[2018-04-09T11:16:55+00:00] INFO: Start handlers complete.
+[2018-04-09T11:16:55+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T11:16:55+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T11:16:55+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T11:16:55+00:00] INFO: Processing bash[tar] action run (java::default line 11)
+[2018-04-09T11:16:55+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T11:16:55+00:00] ERROR: Running exception handlers
+[2018-04-09T11:16:55+00:00] ERROR: Exception handlers complete
+[2018-04-09T11:16:55+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T11:16:55+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T11:16:55+00:00] ERROR: bash[tar] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of "bash"  "/tmp/chef-script20180409-7961-2k95rx" ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of "bash"  "/tmp/chef-script20180409-7961-2k95rx" ----
+Ran "bash"  "/tmp/chef-script20180409-7961-2k95rx" returned 2
+[2018-04-09T11:16:55+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T12:24:45+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:24:45+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:24:45+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:24:45+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:24:45+00:00] INFO: Chef-client pid: 11670
+[2018-04-09T12:24:45+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:24:46+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:24:46+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:24:46+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:24:46+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:24:46+00:00] INFO: Running start handlers
+[2018-04-09T12:24:46+00:00] INFO: Start handlers complete.
+[2018-04-09T12:24:46+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:24:46+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:24:46+00:00] INFO: Storing updated cookbooks/java/spec/unit/recipe/default_spec.rb in the cache.
+[2018-04-09T12:24:46+00:00] ERROR: Running exception handlers
+[2018-04-09T12:24:46+00:00] ERROR: Exception handlers complete
+[2018-04-09T12:24:46+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T12:24:46+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T12:24:46+00:00] ERROR: code is required
+[2018-04-09T12:24:46+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T12:32:39+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:32:39+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:32:39+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:32:39+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:32:39+00:00] INFO: Chef-client pid: 12361
+[2018-04-09T12:32:39+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:32:40+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:32:40+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:32:40+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:32:40+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:32:40+00:00] INFO: Running start handlers
+[2018-04-09T12:32:40+00:00] INFO: Start handlers complete.
+[2018-04-09T12:32:40+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:32:40+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:32:40+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T12:32:40+00:00] INFO: Processing bash[tar] action run (java::default line 10)
+[2018-04-09T12:32:40+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T12:32:40+00:00] ERROR: Running exception handlers
+[2018-04-09T12:32:40+00:00] ERROR: Exception handlers complete
+[2018-04-09T12:32:40+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T12:32:40+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T12:32:40+00:00] ERROR: bash[tar] (java::default line 10) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '127'
+---- Begin output of "bash"  "/tmp/chef-script20180409-12361-1rp4g83" ----
+STDOUT: 
+STDERR: /tmp/chef-script20180409-12361-1rp4g83: line 1: tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz: No such file or directory
+---- End output of "bash"  "/tmp/chef-script20180409-12361-1rp4g83" ----
+Ran "bash"  "/tmp/chef-script20180409-12361-1rp4g83" returned 127
+[2018-04-09T12:32:41+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T12:34:42+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:34:42+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:34:42+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:34:42+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:34:42+00:00] INFO: Chef-client pid: 12740
+[2018-04-09T12:34:42+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:34:44+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:34:44+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:34:44+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:34:44+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:34:44+00:00] INFO: Running start handlers
+[2018-04-09T12:34:44+00:00] INFO: Start handlers complete.
+[2018-04-09T12:34:44+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:34:44+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:34:44+00:00] ERROR: Running exception handlers
+[2018-04-09T12:34:44+00:00] ERROR: Exception handlers complete
+[2018-04-09T12:34:44+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T12:34:44+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T12:34:44+00:00] ERROR: Option action must be equal to one of: nothing, run!  You passed :install.
+[2018-04-09T12:34:44+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T12:38:10+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:38:10+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:38:10+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:38:10+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:38:10+00:00] INFO: Chef-client pid: 13178
+[2018-04-09T12:38:10+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:38:11+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:38:11+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:38:11+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:38:11+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:38:11+00:00] INFO: Running start handlers
+[2018-04-09T12:38:11+00:00] INFO: Start handlers complete.
+[2018-04-09T12:38:11+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:38:11+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:38:11+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T12:38:12+00:00] INFO: Processing bash[tar] action run (java::default line 10)
+[2018-04-09T12:38:12+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T12:38:12+00:00] ERROR: Running exception handlers
+[2018-04-09T12:38:12+00:00] ERROR: Exception handlers complete
+[2018-04-09T12:38:12+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T12:38:12+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T12:38:12+00:00] ERROR: bash[tar] (java::default line 10) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '127'
+---- Begin output of "bash"  "/tmp/chef-script20180409-13178-zci47d" ----
+STDOUT: 
+STDERR: /tmp/chef-script20180409-13178-zci47d: line 1: tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz: No such file or directory
+---- End output of "bash"  "/tmp/chef-script20180409-13178-zci47d" ----
+Ran "bash"  "/tmp/chef-script20180409-13178-zci47d" returned 127
+[2018-04-09T12:38:12+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T12:39:55+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:39:55+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:39:55+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:39:55+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:39:55+00:00] INFO: Chef-client pid: 13543
+[2018-04-09T12:39:55+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:39:57+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:39:57+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:39:57+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:39:57+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:39:57+00:00] INFO: Running start handlers
+[2018-04-09T12:39:57+00:00] INFO: Start handlers complete.
+[2018-04-09T12:39:57+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:39:57+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:39:57+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T12:39:57+00:00] INFO: Chef Run complete in 0.646367653 seconds
+[2018-04-09T12:39:57+00:00] INFO: Running report handlers
+[2018-04-09T12:39:57+00:00] INFO: Report handlers complete
+[2018-04-09T12:39:57+00:00] WARN: *****************************************
+[2018-04-09T12:39:57+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T12:39:57+00:00] WARN: *****************************************
+[2018-04-09T12:39:57+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T12:40:25+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:40:25+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:40:25+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:40:25+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:40:25+00:00] INFO: Chef-client pid: 13837
+[2018-04-09T12:40:25+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:40:26+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:40:26+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:40:26+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:40:26+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:40:26+00:00] INFO: Running start handlers
+[2018-04-09T12:40:26+00:00] INFO: Start handlers complete.
+[2018-04-09T12:40:27+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:40:27+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T12:40:27+00:00] INFO: Chef Run complete in 0.437937591 seconds
+[2018-04-09T12:40:27+00:00] INFO: Running report handlers
+[2018-04-09T12:40:27+00:00] INFO: Report handlers complete
+[2018-04-09T12:40:27+00:00] WARN: *****************************************
+[2018-04-09T12:40:27+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T12:40:27+00:00] WARN: *****************************************
+[2018-04-09T12:40:27+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T12:42:31+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:42:31+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:42:31+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:42:31+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:42:31+00:00] INFO: Chef-client pid: 14212
+[2018-04-09T12:42:31+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:42:32+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:42:32+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:42:32+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:42:32+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:42:32+00:00] INFO: Running start handlers
+[2018-04-09T12:42:32+00:00] INFO: Start handlers complete.
+[2018-04-09T12:42:32+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:42:32+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:42:32+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T12:42:33+00:00] INFO: Processing bash[tar] action run (java::default line 11)
+[2018-04-09T12:42:33+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T12:42:33+00:00] ERROR: Running exception handlers
+[2018-04-09T12:42:33+00:00] ERROR: Exception handlers complete
+[2018-04-09T12:42:33+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T12:42:33+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T12:42:33+00:00] ERROR: bash[tar] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '127'
+---- Begin output of "bash"  "/tmp/chef-script20180409-14212-18coyq4" ----
+STDOUT: 
+STDERR: /tmp/chef-script20180409-14212-18coyq4: line 1: tar -xvz /home/ec2-user/download/jdk-8u161-solaris-x64.tar.gz: No such file or directory
+---- End output of "bash"  "/tmp/chef-script20180409-14212-18coyq4" ----
+Ran "bash"  "/tmp/chef-script20180409-14212-18coyq4" returned 127
+[2018-04-09T12:42:33+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T12:44:54+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:44:54+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:44:55+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:44:55+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:44:55+00:00] INFO: Chef-client pid: 14622
+[2018-04-09T12:44:55+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:44:56+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:44:56+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:44:56+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:44:56+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:44:56+00:00] INFO: Running start handlers
+[2018-04-09T12:44:56+00:00] INFO: Start handlers complete.
+[2018-04-09T12:44:56+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:44:56+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:44:56+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T12:44:56+00:00] INFO: Processing bash[tar] action run (java::default line 11)
+[2018-04-09T12:44:56+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T12:44:56+00:00] ERROR: Running exception handlers
+[2018-04-09T12:44:56+00:00] ERROR: Exception handlers complete
+[2018-04-09T12:44:56+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T12:44:56+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T12:44:56+00:00] ERROR: bash[tar] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of "bash"  "/tmp/chef-script20180409-14622-1ufyy2i" ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of "bash"  "/tmp/chef-script20180409-14622-1ufyy2i" ----
+Ran "bash"  "/tmp/chef-script20180409-14622-1ufyy2i" returned 2
+[2018-04-09T12:44:56+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T12:49:49+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:49:49+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:49:49+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:49:49+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:49:49+00:00] INFO: Chef-client pid: 15177
+[2018-04-09T12:49:49+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:49:50+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:49:50+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:49:50+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:49:50+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:49:50+00:00] INFO: Running start handlers
+[2018-04-09T12:49:50+00:00] INFO: Start handlers complete.
+[2018-04-09T12:49:50+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:49:50+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:49:50+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T12:49:51+00:00] INFO: Processing bash[unzip jdk package] action run (java::default line 11)
+[2018-04-09T12:49:51+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T12:49:51+00:00] ERROR: Running exception handlers
+[2018-04-09T12:49:51+00:00] ERROR: Exception handlers complete
+[2018-04-09T12:49:51+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T12:49:51+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T12:49:51+00:00] ERROR: bash[unzip jdk package] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of "bash"  "/tmp/chef-script20180409-15177-1miweqi" ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of "bash"  "/tmp/chef-script20180409-15177-1miweqi" ----
+Ran "bash"  "/tmp/chef-script20180409-15177-1miweqi" returned 2
+[2018-04-09T12:49:51+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T12:50:28+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:50:28+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:50:28+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:50:28+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:50:28+00:00] INFO: Chef-client pid: 15490
+[2018-04-09T12:50:28+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:50:29+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:50:29+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:50:29+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:50:29+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:50:29+00:00] INFO: Running start handlers
+[2018-04-09T12:50:29+00:00] INFO: Start handlers complete.
+[2018-04-09T12:50:29+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:50:29+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:50:29+00:00] INFO: Processing remote_file[/home/ec2-user/download] action create (java::default line 2)
+[2018-04-09T12:50:30+00:00] INFO: Chef Run complete in 0.493251099 seconds
+[2018-04-09T12:50:30+00:00] INFO: Running report handlers
+[2018-04-09T12:50:30+00:00] INFO: Report handlers complete
+[2018-04-09T12:50:30+00:00] WARN: *****************************************
+[2018-04-09T12:50:30+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T12:50:30+00:00] WARN: *****************************************
+[2018-04-09T12:50:30+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T12:54:33+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:54:33+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:54:33+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:54:33+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:54:33+00:00] INFO: Chef-client pid: 15994
+[2018-04-09T12:54:33+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:54:34+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:54:34+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:54:34+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:54:34+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:54:34+00:00] INFO: Running start handlers
+[2018-04-09T12:54:34+00:00] INFO: Start handlers complete.
+[2018-04-09T12:54:34+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:54:34+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:54:34+00:00] INFO: Processing remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] action create (java::default line 3)
+[2018-04-09T12:54:35+00:00] INFO: remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] created file /home/ec2-user/jdk-8u161-solaris-x64.tar.gz
+[2018-04-09T12:54:35+00:00] INFO: remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] updated file contents /home/ec2-user/jdk-8u161-solaris-x64.tar.gz
+[2018-04-09T12:54:35+00:00] INFO: remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] owner changed to 0
+[2018-04-09T12:54:35+00:00] INFO: remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] group changed to 0
+[2018-04-09T12:54:35+00:00] INFO: remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] mode changed to 755
+[2018-04-09T12:54:35+00:00] INFO: Chef Run complete in 0.790089309 seconds
+[2018-04-09T12:54:35+00:00] INFO: Running report handlers
+[2018-04-09T12:54:35+00:00] INFO: Report handlers complete
+[2018-04-09T12:54:35+00:00] WARN: *****************************************
+[2018-04-09T12:54:35+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T12:54:35+00:00] WARN: *****************************************
+[2018-04-09T12:54:35+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T12:55:59+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T12:55:59+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T12:55:59+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T12:55:59+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T12:55:59+00:00] INFO: Chef-client pid: 16355
+[2018-04-09T12:55:59+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T12:56:01+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T12:56:01+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T12:56:01+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T12:56:01+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T12:56:01+00:00] INFO: Running start handlers
+[2018-04-09T12:56:01+00:00] INFO: Start handlers complete.
+[2018-04-09T12:56:01+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T12:56:01+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T12:56:01+00:00] INFO: Processing remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] action create (java::default line 3)
+[2018-04-09T12:56:01+00:00] INFO: Processing bash[unzip jdk package] action run (java::default line 11)
+[2018-04-09T12:56:01+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T12:56:01+00:00] ERROR: Running exception handlers
+[2018-04-09T12:56:01+00:00] ERROR: Exception handlers complete
+[2018-04-09T12:56:01+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T12:56:01+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T12:56:01+00:00] ERROR: bash[unzip jdk package] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of "bash"  "/tmp/chef-script20180409-16355-c5s9q8" ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of "bash"  "/tmp/chef-script20180409-16355-c5s9q8" ----
+Ran "bash"  "/tmp/chef-script20180409-16355-c5s9q8" returned 2
+[2018-04-09T12:56:01+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T13:13:32+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T13:13:32+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T13:13:32+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T13:13:32+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T13:13:32+00:00] INFO: Chef-client pid: 17550
+[2018-04-09T13:13:32+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T13:13:33+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T13:13:33+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T13:13:33+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T13:13:33+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T13:13:33+00:00] INFO: Running start handlers
+[2018-04-09T13:13:33+00:00] INFO: Start handlers complete.
+[2018-04-09T13:13:33+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T13:13:33+00:00] INFO: Processing remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] action create (java::default line 3)
+[2018-04-09T13:13:34+00:00] INFO: Processing bash[unzip jdk package] action run (java::default line 11)
+[2018-04-09T13:13:34+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T13:13:34+00:00] ERROR: Running exception handlers
+[2018-04-09T13:13:34+00:00] ERROR: Exception handlers complete
+[2018-04-09T13:13:34+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T13:13:34+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T13:13:34+00:00] ERROR: bash[unzip jdk package] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of "bash"  "/tmp/chef-script20180409-17550-1xxvh94" ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of "bash"  "/tmp/chef-script20180409-17550-1xxvh94" ----
+Ran "bash"  "/tmp/chef-script20180409-17550-1xxvh94" returned 2
+[2018-04-09T13:13:34+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T13:17:17+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T13:17:17+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T13:17:17+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T13:17:17+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T13:17:17+00:00] INFO: Chef-client pid: 18038
+[2018-04-09T13:17:17+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T13:17:18+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T13:17:18+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T13:17:18+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T13:17:18+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T13:17:18+00:00] INFO: Running start handlers
+[2018-04-09T13:17:18+00:00] INFO: Start handlers complete.
+[2018-04-09T13:17:18+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T13:17:18+00:00] INFO: Processing remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] action create (java::default line 3)
+[2018-04-09T13:17:19+00:00] INFO: Processing bash[unzip jdk package] action run (java::default line 11)
+[2018-04-09T13:17:19+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T13:17:19+00:00] ERROR: Running exception handlers
+[2018-04-09T13:17:19+00:00] ERROR: Exception handlers complete
+[2018-04-09T13:17:19+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T13:17:19+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T13:17:19+00:00] ERROR: bash[unzip jdk package] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of "bash"  "/tmp/chef-script20180409-18038-1s30w3w" ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of "bash"  "/tmp/chef-script20180409-18038-1s30w3w" ----
+Ran "bash"  "/tmp/chef-script20180409-18038-1s30w3w" returned 2
+[2018-04-09T13:17:19+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T13:18:36+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T13:18:36+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T13:18:36+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T13:18:36+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T13:18:36+00:00] INFO: Chef-client pid: 18406
+[2018-04-09T13:18:36+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T13:18:38+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T13:18:38+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T13:18:38+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T13:18:38+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T13:18:38+00:00] INFO: Running start handlers
+[2018-04-09T13:18:38+00:00] INFO: Start handlers complete.
+[2018-04-09T13:18:38+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T13:18:38+00:00] INFO: Processing remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] action create (java::default line 3)
+[2018-04-09T13:18:38+00:00] INFO: Processing bash[unzip jdk package] action run (java::default line 11)
+[2018-04-09T13:18:38+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T13:18:38+00:00] ERROR: Running exception handlers
+[2018-04-09T13:18:38+00:00] ERROR: Exception handlers complete
+[2018-04-09T13:18:38+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T13:18:38+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T13:18:38+00:00] ERROR: bash[unzip jdk package] (java::default line 11) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '2'
+---- Begin output of "bash"  "/tmp/chef-script20180409-18406-bgabmm" ----
+STDOUT: 
+STDERR: gzip: stdin: unexpected end of file
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+---- End output of "bash"  "/tmp/chef-script20180409-18406-bgabmm" ----
+Ran "bash"  "/tmp/chef-script20180409-18406-bgabmm" returned 2
+[2018-04-09T13:18:38+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T13:19:57+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T13:19:57+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T13:19:57+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T13:19:57+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T13:19:57+00:00] INFO: Chef-client pid: 18752
+[2018-04-09T13:19:57+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T13:19:59+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T13:19:59+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T13:19:59+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T13:19:59+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T13:19:59+00:00] INFO: Running start handlers
+[2018-04-09T13:19:59+00:00] INFO: Start handlers complete.
+[2018-04-09T13:19:59+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T13:19:59+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T13:19:59+00:00] INFO: Processing remote_file[/home/ec2-user/jdk-8u161-solaris-x64.tar.gz] action create (java::default line 3)
+[2018-04-09T13:19:59+00:00] INFO: Processing bash[unzip jdk package] action nothing (java::default line 11)
+[2018-04-09T13:19:59+00:00] INFO: Chef Run complete in 0.715511831 seconds
+[2018-04-09T13:19:59+00:00] INFO: Running report handlers
+[2018-04-09T13:19:59+00:00] INFO: Report handlers complete
+[2018-04-09T13:19:59+00:00] WARN: *****************************************
+[2018-04-09T13:19:59+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T13:19:59+00:00] WARN: *****************************************
+[2018-04-09T13:19:59+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T13:57:07+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T13:57:07+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T13:57:07+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T13:57:07+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T13:57:07+00:00] INFO: Chef-client pid: 20906
+[2018-04-09T13:57:07+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T13:57:08+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T13:57:08+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T13:57:08+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T13:57:08+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T13:57:08+00:00] INFO: Running start handlers
+[2018-04-09T13:57:08+00:00] INFO: Start handlers complete.
+[2018-04-09T13:57:08+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T13:57:08+00:00] INFO: Storing updated cookbooks/java/attributes/file.rb in the cache.
+[2018-04-09T13:57:08+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T13:57:08+00:00] INFO: Processing execute[install java] action run (java::default line 20)
+[2018-04-09T13:57:12+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T13:57:12+00:00] ERROR: Running exception handlers
+[2018-04-09T13:57:12+00:00] ERROR: Exception handlers complete
+[2018-04-09T13:57:12+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T13:57:12+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T13:57:12+00:00] ERROR: execute[install java] (java::default line 20) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '1'
+---- Begin output of yum install java-1.8.0-openjdk ----
+STDOUT: Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Resolving Dependencies
+--> Running transaction check
+---> Package java-1.8.0-openjdk.x86_64 1:1.8.0.161-0.b14.el7_4 will be installed
+--> Processing Dependency: java-1.8.0-openjdk-headless(x86-64) = 1:1.8.0.161-0.b14.el7_4 for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: fontconfig(x86-64) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2(ALSA_0.9)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2(ALSA_0.9.0rc4)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjava.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjli.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjpeg.so.62(LIBJPEG_6.2)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjvm.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libpng15.so.15(PNG15_0)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: xorg-x11-fonts-Type1 for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libX11.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXcomposite.so.1()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXext.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXi.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXrender.so.1()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXtst.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libawt.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libgif.so.4()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjava.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjli.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjpeg.so.62()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjvm.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libpng15.so.15()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Running transaction check
+---> Package alsa-lib.x86_64 0:1.1.3-3.el7 will be installed
+---> Package fontconfig.x86_64 0:2.10.95-11.el7 will be installed
+--> Processing Dependency: font(:lang=en) for package: fontconfig-2.10.95-11.el7.x86_64
+--> Processing Dependency: fontpackages-filesystem for package: fontconfig-2.10.95-11.el7.x86_64
+---> Package giflib.x86_64 0:4.1.6-9.el7 will be installed
+--> Processing Dependency: libICE.so.6()(64bit) for package: giflib-4.1.6-9.el7.x86_64
+--> Processing Dependency: libSM.so.6()(64bit) for package: giflib-4.1.6-9.el7.x86_64
+---> Package java-1.8.0-openjdk-headless.x86_64 1:1.8.0.161-0.b14.el7_4 will be installed
+--> Processing Dependency: copy-jdk-configs >= 2.2 for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: tzdata-java >= 2015d for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: jpackage-utils for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: lksctp-tools(x86-64) for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+---> Package libX11.x86_64 0:1.6.5-1.el7 will be installed
+--> Processing Dependency: libX11-common >= 1.6.5-1.el7 for package: libX11-1.6.5-1.el7.x86_64
+--> Processing Dependency: libxcb.so.1()(64bit) for package: libX11-1.6.5-1.el7.x86_64
+---> Package libXcomposite.x86_64 0:0.4.4-4.1.el7 will be installed
+---> Package libXext.x86_64 0:1.3.3-3.el7 will be installed
+---> Package libXi.x86_64 0:1.7.9-1.el7 will be installed
+---> Package libXrender.x86_64 0:0.9.10-1.el7 will be installed
+---> Package libXtst.x86_64 0:1.2.3-1.el7 will be installed
+---> Package libjpeg-turbo.x86_64 0:1.2.90-5.el7 will be installed
+---> Package libpng.x86_64 2:1.5.13-7.el7_2 will be installed
+---> Package xorg-x11-fonts-Type1.noarch 0:7.5-9.el7 will be installed
+--> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Running transaction check
+---> Package copy-jdk-configs.noarch 0:2.2-5.el7_4 will be installed
+---> Package fontpackages-filesystem.noarch 0:1.44-8.el7 will be installed
+---> Package javapackages-tools.noarch 0:3.4.1-11.el7 will be installed
+--> Processing Dependency: python-javapackages = 3.4.1-11.el7 for package: javapackages-tools-3.4.1-11.el7.noarch
+---> Package libICE.x86_64 0:1.0.9-9.el7 will be installed
+---> Package libSM.x86_64 0:1.2.2-2.el7 will be installed
+---> Package libX11-common.noarch 0:1.6.5-1.el7 will be installed
+---> Package libxcb.x86_64 0:1.12-1.el7 will be installed
+--> Processing Dependency: libXau.so.6()(64bit) for package: libxcb-1.12-1.el7.x86_64
+---> Package lksctp-tools.x86_64 0:1.0.17-2.el7 will be installed
+---> Package stix-fonts.noarch 0:1.1.0-5.el7 will be installed
+---> Package ttmkfdir.x86_64 0:3.0.9-42.el7 will be installed
+---> Package tzdata-java.noarch 0:2018d-1.el7 will be installed
+---> Package xorg-x11-font-utils.x86_64 1:7.5-20.el7 will be installed
+--> Processing Dependency: libXfont.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-20.el7.x86_64
+--> Processing Dependency: libfontenc.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-20.el7.x86_64
+--> Running transaction check
+---> Package libXau.x86_64 0:1.0.8-2.1.el7 will be installed
+---> Package libXfont.x86_64 0:1.5.2-1.el7 will be installed
+---> Package libfontenc.x86_64 0:1.1.3-3.el7 will be installed
+---> Package python-javapackages.noarch 0:3.4.1-11.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch   Version       Repository                        Size
+================================================================================
+Installing:
+ java-1.8.0-openjdk x86_64 1:1.8.0.161-0.b14.el7_4
+                                         rhui-REGION-rhel-server-releases 243 k
+Installing for dependencies:
+ alsa-lib           x86_64 1.1.3-3.el7   rhui-REGION-rhel-server-releases 421 k
+ copy-jdk-configs   noarch 2.2-5.el7_4   rhui-REGION-rhel-server-releases  19 k
+ fontconfig         x86_64 2.10.95-11.el7
+                                         rhui-REGION-rhel-server-releases 229 k
+ fontpackages-filesystem
+                    noarch 1.44-8.el7    rhui-REGION-rhel-server-releases 9.9 k
+ giflib             x86_64 4.1.6-9.el7   rhui-REGION-rhel-server-releases  40 k
+ java-1.8.0-openjdk-headless
+                    x86_64 1:1.8.0.161-0.b14.el7_4
+                                         rhui-REGION-rhel-server-releases  32 M
+ javapackages-tools noarch 3.4.1-11.el7  rhui-REGION-rhel-server-releases  73 k
+ libICE             x86_64 1.0.9-9.el7   rhui-REGION-rhel-server-releases  66 k
+ libSM              x86_64 1.2.2-2.el7   rhui-REGION-rhel-server-releases  39 k
+ libX11             x86_64 1.6.5-1.el7   rhui-REGION-rhel-server-releases 606 k
+ libX11-common      noarch 1.6.5-1.el7   rhui-REGION-rhel-server-releases 164 k
+ libXau             x86_64 1.0.8-2.1.el7 rhui-REGION-rhel-server-releases  29 k
+ libXcomposite      x86_64 0.4.4-4.1.el7 rhui-REGION-rhel-server-releases  22 k
+ libXext            x86_64 1.3.3-3.el7   rhui-REGION-rhel-server-releases  39 k
+ libXfont           x86_64 1.5.2-1.el7   rhui-REGION-rhel-server-releases 152 k
+ libXi              x86_64 1.7.9-1.el7   rhui-REGION-rhel-server-releases  40 k
+ libXrender         x86_64 0.9.10-1.el7  rhui-REGION-rhel-server-releases  26 k
+ libXtst            x86_64 1.2.3-1.el7   rhui-REGION-rhel-server-releases  20 k
+ libfontenc         x86_64 1.1.3-3.el7   rhui-REGION-rhel-server-releases  31 k
+ libjpeg-turbo      x86_64 1.2.90-5.el7  rhui-REGION-rhel-server-releases 134 k
+ libpng             x86_64 2:1.5.13-7.el7_2
+                                         rhui-REGION-rhel-server-releases 213 k
+ libxcb             x86_64 1.12-1.el7    rhui-REGION-rhel-server-releases 211 k
+ lksctp-tools       x86_64 1.0.17-2.el7  rhui-REGION-rhel-server-releases  88 k
+ python-javapackages
+                    noarch 3.4.1-11.el7  rhui-REGION-rhel-server-releases  31 k
+ stix-fonts         noarch 1.1.0-5.el7   rhui-REGION-rhel-server-releases 1.3 M
+ ttmkfdir           x86_64 3.0.9-42.el7  rhui-REGION-rhel-server-releases  48 k
+ tzdata-java        noarch 2018d-1.el7   rhui-REGION-rhel-server-releases 184 k
+ xorg-x11-font-utils
+                    x86_64 1:7.5-20.el7  rhui-REGION-rhel-server-releases  87 k
+ xorg-x11-fonts-Type1
+                    noarch 7.5-9.el7     rhui-REGION-rhel-server-releases 521 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+29 Dependent packages)
+
+Total download size: 37 M
+Installed size: 115 M
+Is this ok [y/d/N]: Exiting on user command
+Your transaction was saved, rerun it with:
+ yum load-transaction /tmp/yum_save_tx.2018-04-09.13-57.ilq00g.yumtx
+STDERR: 
+---- End output of yum install java-1.8.0-openjdk ----
+Ran yum install java-1.8.0-openjdk returned 1
+[2018-04-09T13:57:12+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T14:06:29+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T14:06:29+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T14:06:29+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T14:06:29+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T14:06:29+00:00] INFO: Chef-client pid: 21681
+[2018-04-09T14:06:29+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T14:06:30+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T14:06:30+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T14:06:30+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T14:06:30+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T14:06:30+00:00] INFO: Running start handlers
+[2018-04-09T14:06:30+00:00] INFO: Start handlers complete.
+[2018-04-09T14:06:30+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T14:06:30+00:00] INFO: Storing updated cookbooks/java/spec/unit/recipe/default_spec.rb in the cache.
+[2018-04-09T14:06:30+00:00] INFO: Processing execute[install java] action run (java::default line 20)
+[2018-04-09T14:06:32+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T14:06:32+00:00] ERROR: Running exception handlers
+[2018-04-09T14:06:32+00:00] ERROR: Exception handlers complete
+[2018-04-09T14:06:32+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T14:06:32+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T14:06:32+00:00] ERROR: execute[install java] (java::default line 20) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '1'
+---- Begin output of yum install java-1.8.0-openjdk ----
+STDOUT: Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Resolving Dependencies
+--> Running transaction check
+---> Package java-1.8.0-openjdk.x86_64 1:1.8.0.161-0.b14.el7_4 will be installed
+--> Processing Dependency: java-1.8.0-openjdk-headless(x86-64) = 1:1.8.0.161-0.b14.el7_4 for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: fontconfig(x86-64) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2(ALSA_0.9)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2(ALSA_0.9.0rc4)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjava.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjli.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjpeg.so.62(LIBJPEG_6.2)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjvm.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libpng15.so.15(PNG15_0)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: xorg-x11-fonts-Type1 for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libX11.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXcomposite.so.1()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXext.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXi.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXrender.so.1()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXtst.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libawt.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libgif.so.4()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjava.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjli.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjpeg.so.62()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjvm.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libpng15.so.15()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Running transaction check
+---> Package alsa-lib.x86_64 0:1.1.3-3.el7 will be installed
+---> Package fontconfig.x86_64 0:2.10.95-11.el7 will be installed
+--> Processing Dependency: font(:lang=en) for package: fontconfig-2.10.95-11.el7.x86_64
+--> Processing Dependency: fontpackages-filesystem for package: fontconfig-2.10.95-11.el7.x86_64
+---> Package giflib.x86_64 0:4.1.6-9.el7 will be installed
+--> Processing Dependency: libICE.so.6()(64bit) for package: giflib-4.1.6-9.el7.x86_64
+--> Processing Dependency: libSM.so.6()(64bit) for package: giflib-4.1.6-9.el7.x86_64
+---> Package java-1.8.0-openjdk-headless.x86_64 1:1.8.0.161-0.b14.el7_4 will be installed
+--> Processing Dependency: copy-jdk-configs >= 2.2 for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: tzdata-java >= 2015d for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: jpackage-utils for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: lksctp-tools(x86-64) for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+---> Package libX11.x86_64 0:1.6.5-1.el7 will be installed
+--> Processing Dependency: libX11-common >= 1.6.5-1.el7 for package: libX11-1.6.5-1.el7.x86_64
+--> Processing Dependency: libxcb.so.1()(64bit) for package: libX11-1.6.5-1.el7.x86_64
+---> Package libXcomposite.x86_64 0:0.4.4-4.1.el7 will be installed
+---> Package libXext.x86_64 0:1.3.3-3.el7 will be installed
+---> Package libXi.x86_64 0:1.7.9-1.el7 will be installed
+---> Package libXrender.x86_64 0:0.9.10-1.el7 will be installed
+---> Package libXtst.x86_64 0:1.2.3-1.el7 will be installed
+---> Package libjpeg-turbo.x86_64 0:1.2.90-5.el7 will be installed
+---> Package libpng.x86_64 2:1.5.13-7.el7_2 will be installed
+---> Package xorg-x11-fonts-Type1.noarch 0:7.5-9.el7 will be installed
+--> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Running transaction check
+---> Package copy-jdk-configs.noarch 0:2.2-5.el7_4 will be installed
+---> Package fontpackages-filesystem.noarch 0:1.44-8.el7 will be installed
+---> Package javapackages-tools.noarch 0:3.4.1-11.el7 will be installed
+--> Processing Dependency: python-javapackages = 3.4.1-11.el7 for package: javapackages-tools-3.4.1-11.el7.noarch
+---> Package libICE.x86_64 0:1.0.9-9.el7 will be installed
+---> Package libSM.x86_64 0:1.2.2-2.el7 will be installed
+---> Package libX11-common.noarch 0:1.6.5-1.el7 will be installed
+---> Package libxcb.x86_64 0:1.12-1.el7 will be installed
+--> Processing Dependency: libXau.so.6()(64bit) for package: libxcb-1.12-1.el7.x86_64
+---> Package lksctp-tools.x86_64 0:1.0.17-2.el7 will be installed
+---> Package stix-fonts.noarch 0:1.1.0-5.el7 will be installed
+---> Package ttmkfdir.x86_64 0:3.0.9-42.el7 will be installed
+---> Package tzdata-java.noarch 0:2018d-1.el7 will be installed
+---> Package xorg-x11-font-utils.x86_64 1:7.5-20.el7 will be installed
+--> Processing Dependency: libXfont.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-20.el7.x86_64
+--> Processing Dependency: libfontenc.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-20.el7.x86_64
+--> Running transaction check
+---> Package libXau.x86_64 0:1.0.8-2.1.el7 will be installed
+---> Package libXfont.x86_64 0:1.5.2-1.el7 will be installed
+---> Package libfontenc.x86_64 0:1.1.3-3.el7 will be installed
+---> Package python-javapackages.noarch 0:3.4.1-11.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch   Version       Repository                        Size
+================================================================================
+Installing:
+ java-1.8.0-openjdk x86_64 1:1.8.0.161-0.b14.el7_4
+                                         rhui-REGION-rhel-server-releases 243 k
+Installing for dependencies:
+ alsa-lib           x86_64 1.1.3-3.el7   rhui-REGION-rhel-server-releases 421 k
+ copy-jdk-configs   noarch 2.2-5.el7_4   rhui-REGION-rhel-server-releases  19 k
+ fontconfig         x86_64 2.10.95-11.el7
+                                         rhui-REGION-rhel-server-releases 229 k
+ fontpackages-filesystem
+                    noarch 1.44-8.el7    rhui-REGION-rhel-server-releases 9.9 k
+ giflib             x86_64 4.1.6-9.el7   rhui-REGION-rhel-server-releases  40 k
+ java-1.8.0-openjdk-headless
+                    x86_64 1:1.8.0.161-0.b14.el7_4
+                                         rhui-REGION-rhel-server-releases  32 M
+ javapackages-tools noarch 3.4.1-11.el7  rhui-REGION-rhel-server-releases  73 k
+ libICE             x86_64 1.0.9-9.el7   rhui-REGION-rhel-server-releases  66 k
+ libSM              x86_64 1.2.2-2.el7   rhui-REGION-rhel-server-releases  39 k
+ libX11             x86_64 1.6.5-1.el7   rhui-REGION-rhel-server-releases 606 k
+ libX11-common      noarch 1.6.5-1.el7   rhui-REGION-rhel-server-releases 164 k
+ libXau             x86_64 1.0.8-2.1.el7 rhui-REGION-rhel-server-releases  29 k
+ libXcomposite      x86_64 0.4.4-4.1.el7 rhui-REGION-rhel-server-releases  22 k
+ libXext            x86_64 1.3.3-3.el7   rhui-REGION-rhel-server-releases  39 k
+ libXfont           x86_64 1.5.2-1.el7   rhui-REGION-rhel-server-releases 152 k
+ libXi              x86_64 1.7.9-1.el7   rhui-REGION-rhel-server-releases  40 k
+ libXrender         x86_64 0.9.10-1.el7  rhui-REGION-rhel-server-releases  26 k
+ libXtst            x86_64 1.2.3-1.el7   rhui-REGION-rhel-server-releases  20 k
+ libfontenc         x86_64 1.1.3-3.el7   rhui-REGION-rhel-server-releases  31 k
+ libjpeg-turbo      x86_64 1.2.90-5.el7  rhui-REGION-rhel-server-releases 134 k
+ libpng             x86_64 2:1.5.13-7.el7_2
+                                         rhui-REGION-rhel-server-releases 213 k
+ libxcb             x86_64 1.12-1.el7    rhui-REGION-rhel-server-releases 211 k
+ lksctp-tools       x86_64 1.0.17-2.el7  rhui-REGION-rhel-server-releases  88 k
+ python-javapackages
+                    noarch 3.4.1-11.el7  rhui-REGION-rhel-server-releases  31 k
+ stix-fonts         noarch 1.1.0-5.el7   rhui-REGION-rhel-server-releases 1.3 M
+ ttmkfdir           x86_64 3.0.9-42.el7  rhui-REGION-rhel-server-releases  48 k
+ tzdata-java        noarch 2018d-1.el7   rhui-REGION-rhel-server-releases 184 k
+ xorg-x11-font-utils
+                    x86_64 1:7.5-20.el7  rhui-REGION-rhel-server-releases  87 k
+ xorg-x11-fonts-Type1
+                    noarch 7.5-9.el7     rhui-REGION-rhel-server-releases 521 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+29 Dependent packages)
+
+Total download size: 37 M
+Installed size: 115 M
+Is this ok [y/d/N]: Exiting on user command
+Your transaction was saved, rerun it with:
+ yum load-transaction /tmp/yum_save_tx.2018-04-09.14-06.xI7l3V.yumtx
+STDERR: 
+---- End output of yum install java-1.8.0-openjdk ----
+Ran yum install java-1.8.0-openjdk returned 1
+[2018-04-09T14:06:32+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T14:12:02+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T14:12:02+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T14:12:02+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T14:12:02+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T14:12:02+00:00] INFO: Chef-client pid: 22258
+[2018-04-09T14:12:02+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T14:12:04+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T14:12:04+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T14:12:04+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T14:12:04+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T14:12:04+00:00] INFO: Running start handlers
+[2018-04-09T14:12:04+00:00] INFO: Start handlers complete.
+[2018-04-09T14:12:04+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T14:12:04+00:00] INFO: Storing updated cookbooks/java/attributes/file.rb in the cache.
+[2018-04-09T14:12:04+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T14:12:04+00:00] INFO: Processing execute[install java] action run (java::default line 20)
+[2018-04-09T14:12:06+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-04-09T14:12:06+00:00] ERROR: Running exception handlers
+[2018-04-09T14:12:06+00:00] ERROR: Exception handlers complete
+[2018-04-09T14:12:06+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T14:12:06+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T14:12:06+00:00] ERROR: execute[install java] (java::default line 20) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '1'
+---- Begin output of yum install java-1.8.0-openjdk ----
+STDOUT: Loaded plugins: amazon-id, rhui-lb, search-disabled-repos
+Resolving Dependencies
+--> Running transaction check
+---> Package java-1.8.0-openjdk.x86_64 1:1.8.0.161-0.b14.el7_4 will be installed
+--> Processing Dependency: java-1.8.0-openjdk-headless(x86-64) = 1:1.8.0.161-0.b14.el7_4 for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: fontconfig(x86-64) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2(ALSA_0.9)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2(ALSA_0.9.0rc4)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjava.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjli.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjpeg.so.62(LIBJPEG_6.2)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjvm.so(SUNWprivate_1.1)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libpng15.so.15(PNG15_0)(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: xorg-x11-fonts-Type1 for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libX11.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXcomposite.so.1()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXext.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXi.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXrender.so.1()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libXtst.so.6()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libasound.so.2()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libawt.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libgif.so.4()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjava.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjli.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjpeg.so.62()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libjvm.so()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: libpng15.so.15()(64bit) for package: 1:java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+--> Running transaction check
+---> Package alsa-lib.x86_64 0:1.1.3-3.el7 will be installed
+---> Package fontconfig.x86_64 0:2.10.95-11.el7 will be installed
+--> Processing Dependency: font(:lang=en) for package: fontconfig-2.10.95-11.el7.x86_64
+--> Processing Dependency: fontpackages-filesystem for package: fontconfig-2.10.95-11.el7.x86_64
+---> Package giflib.x86_64 0:4.1.6-9.el7 will be installed
+--> Processing Dependency: libICE.so.6()(64bit) for package: giflib-4.1.6-9.el7.x86_64
+--> Processing Dependency: libSM.so.6()(64bit) for package: giflib-4.1.6-9.el7.x86_64
+---> Package java-1.8.0-openjdk-headless.x86_64 1:1.8.0.161-0.b14.el7_4 will be installed
+--> Processing Dependency: copy-jdk-configs >= 2.2 for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: tzdata-java >= 2015d for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: jpackage-utils for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+--> Processing Dependency: lksctp-tools(x86-64) for package: 1:java-1.8.0-openjdk-headless-1.8.0.161-0.b14.el7_4.x86_64
+---> Package libX11.x86_64 0:1.6.5-1.el7 will be installed
+--> Processing Dependency: libX11-common >= 1.6.5-1.el7 for package: libX11-1.6.5-1.el7.x86_64
+--> Processing Dependency: libxcb.so.1()(64bit) for package: libX11-1.6.5-1.el7.x86_64
+---> Package libXcomposite.x86_64 0:0.4.4-4.1.el7 will be installed
+---> Package libXext.x86_64 0:1.3.3-3.el7 will be installed
+---> Package libXi.x86_64 0:1.7.9-1.el7 will be installed
+---> Package libXrender.x86_64 0:0.9.10-1.el7 will be installed
+---> Package libXtst.x86_64 0:1.2.3-1.el7 will be installed
+---> Package libjpeg-turbo.x86_64 0:1.2.90-5.el7 will be installed
+---> Package libpng.x86_64 2:1.5.13-7.el7_2 will be installed
+---> Package xorg-x11-fonts-Type1.noarch 0:7.5-9.el7 will be installed
+--> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: mkfontdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Processing Dependency: ttmkfdir for package: xorg-x11-fonts-Type1-7.5-9.el7.noarch
+--> Running transaction check
+---> Package copy-jdk-configs.noarch 0:2.2-5.el7_4 will be installed
+---> Package fontpackages-filesystem.noarch 0:1.44-8.el7 will be installed
+---> Package javapackages-tools.noarch 0:3.4.1-11.el7 will be installed
+--> Processing Dependency: python-javapackages = 3.4.1-11.el7 for package: javapackages-tools-3.4.1-11.el7.noarch
+---> Package libICE.x86_64 0:1.0.9-9.el7 will be installed
+---> Package libSM.x86_64 0:1.2.2-2.el7 will be installed
+---> Package libX11-common.noarch 0:1.6.5-1.el7 will be installed
+---> Package libxcb.x86_64 0:1.12-1.el7 will be installed
+--> Processing Dependency: libXau.so.6()(64bit) for package: libxcb-1.12-1.el7.x86_64
+---> Package lksctp-tools.x86_64 0:1.0.17-2.el7 will be installed
+---> Package stix-fonts.noarch 0:1.1.0-5.el7 will be installed
+---> Package ttmkfdir.x86_64 0:3.0.9-42.el7 will be installed
+---> Package tzdata-java.noarch 0:2018d-1.el7 will be installed
+---> Package xorg-x11-font-utils.x86_64 1:7.5-20.el7 will be installed
+--> Processing Dependency: libXfont.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-20.el7.x86_64
+--> Processing Dependency: libfontenc.so.1()(64bit) for package: 1:xorg-x11-font-utils-7.5-20.el7.x86_64
+--> Running transaction check
+---> Package libXau.x86_64 0:1.0.8-2.1.el7 will be installed
+---> Package libXfont.x86_64 0:1.5.2-1.el7 will be installed
+---> Package libfontenc.x86_64 0:1.1.3-3.el7 will be installed
+---> Package python-javapackages.noarch 0:3.4.1-11.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch   Version       Repository                        Size
+================================================================================
+Installing:
+ java-1.8.0-openjdk x86_64 1:1.8.0.161-0.b14.el7_4
+                                         rhui-REGION-rhel-server-releases 243 k
+Installing for dependencies:
+ alsa-lib           x86_64 1.1.3-3.el7   rhui-REGION-rhel-server-releases 421 k
+ copy-jdk-configs   noarch 2.2-5.el7_4   rhui-REGION-rhel-server-releases  19 k
+ fontconfig         x86_64 2.10.95-11.el7
+                                         rhui-REGION-rhel-server-releases 229 k
+ fontpackages-filesystem
+                    noarch 1.44-8.el7    rhui-REGION-rhel-server-releases 9.9 k
+ giflib             x86_64 4.1.6-9.el7   rhui-REGION-rhel-server-releases  40 k
+ java-1.8.0-openjdk-headless
+                    x86_64 1:1.8.0.161-0.b14.el7_4
+                                         rhui-REGION-rhel-server-releases  32 M
+ javapackages-tools noarch 3.4.1-11.el7  rhui-REGION-rhel-server-releases  73 k
+ libICE             x86_64 1.0.9-9.el7   rhui-REGION-rhel-server-releases  66 k
+ libSM              x86_64 1.2.2-2.el7   rhui-REGION-rhel-server-releases  39 k
+ libX11             x86_64 1.6.5-1.el7   rhui-REGION-rhel-server-releases 606 k
+ libX11-common      noarch 1.6.5-1.el7   rhui-REGION-rhel-server-releases 164 k
+ libXau             x86_64 1.0.8-2.1.el7 rhui-REGION-rhel-server-releases  29 k
+ libXcomposite      x86_64 0.4.4-4.1.el7 rhui-REGION-rhel-server-releases  22 k
+ libXext            x86_64 1.3.3-3.el7   rhui-REGION-rhel-server-releases  39 k
+ libXfont           x86_64 1.5.2-1.el7   rhui-REGION-rhel-server-releases 152 k
+ libXi              x86_64 1.7.9-1.el7   rhui-REGION-rhel-server-releases  40 k
+ libXrender         x86_64 0.9.10-1.el7  rhui-REGION-rhel-server-releases  26 k
+ libXtst            x86_64 1.2.3-1.el7   rhui-REGION-rhel-server-releases  20 k
+ libfontenc         x86_64 1.1.3-3.el7   rhui-REGION-rhel-server-releases  31 k
+ libjpeg-turbo      x86_64 1.2.90-5.el7  rhui-REGION-rhel-server-releases 134 k
+ libpng             x86_64 2:1.5.13-7.el7_2
+                                         rhui-REGION-rhel-server-releases 213 k
+ libxcb             x86_64 1.12-1.el7    rhui-REGION-rhel-server-releases 211 k
+ lksctp-tools       x86_64 1.0.17-2.el7  rhui-REGION-rhel-server-releases  88 k
+ python-javapackages
+                    noarch 3.4.1-11.el7  rhui-REGION-rhel-server-releases  31 k
+ stix-fonts         noarch 1.1.0-5.el7   rhui-REGION-rhel-server-releases 1.3 M
+ ttmkfdir           x86_64 3.0.9-42.el7  rhui-REGION-rhel-server-releases  48 k
+ tzdata-java        noarch 2018d-1.el7   rhui-REGION-rhel-server-releases 184 k
+ xorg-x11-font-utils
+                    x86_64 1:7.5-20.el7  rhui-REGION-rhel-server-releases  87 k
+ xorg-x11-fonts-Type1
+                    noarch 7.5-9.el7     rhui-REGION-rhel-server-releases 521 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+29 Dependent packages)
+
+Total download size: 37 M
+Installed size: 115 M
+Is this ok [y/d/N]: Exiting on user command
+Your transaction was saved, rerun it with:
+ yum load-transaction /tmp/yum_save_tx.2018-04-09.14-12.KogmwE.yumtx
+STDERR: 
+---- End output of yum install java-1.8.0-openjdk ----
+Ran yum install java-1.8.0-openjdk returned 1
+[2018-04-09T14:12:06+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T14:14:32+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T14:14:32+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T14:14:32+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T14:14:32+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T14:14:32+00:00] INFO: Chef-client pid: 22742
+[2018-04-09T14:14:32+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T14:14:33+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T14:14:33+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T14:14:33+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T14:14:33+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T14:14:33+00:00] INFO: Running start handlers
+[2018-04-09T14:14:33+00:00] INFO: Start handlers complete.
+[2018-04-09T14:14:33+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T14:14:33+00:00] INFO: Processing execute[install java] action run (java::default line 20)
+[2018-04-09T14:14:34+00:00] INFO: execute[install java] ran successfully
+[2018-04-09T14:14:34+00:00] INFO: Chef Run complete in 0.800792023 seconds
+[2018-04-09T14:14:34+00:00] INFO: Running report handlers
+[2018-04-09T14:14:34+00:00] INFO: Report handlers complete
+[2018-04-09T14:14:34+00:00] WARN: *****************************************
+[2018-04-09T14:14:34+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T14:14:34+00:00] WARN: *****************************************
+[2018-04-09T14:14:34+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T14:20:31+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T14:20:31+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T14:20:31+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T14:20:31+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T14:20:31+00:00] INFO: Chef-client pid: 23342
+[2018-04-09T14:20:31+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T14:20:33+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T14:20:33+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T14:20:33+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T14:20:33+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T14:20:33+00:00] INFO: Running start handlers
+[2018-04-09T14:20:33+00:00] INFO: Start handlers complete.
+[2018-04-09T14:20:33+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T14:20:33+00:00] INFO: Processing execute[install java] action run (java::default line 20)
+[2018-04-09T14:20:33+00:00] INFO: execute[install java] ran successfully
+[2018-04-09T14:20:33+00:00] INFO: Chef Run complete in 0.685539542 seconds
+[2018-04-09T14:20:33+00:00] INFO: Running report handlers
+[2018-04-09T14:20:33+00:00] INFO: Report handlers complete
+[2018-04-09T14:20:33+00:00] WARN: *****************************************
+[2018-04-09T14:20:33+00:00] WARN: Did not find config file: /solo.rb, using command line options.
+[2018-04-09T14:20:33+00:00] WARN: *****************************************
+[2018-04-09T14:20:33+00:00] FATAL: Cannot load configuration from node.json
+[2018-04-09T14:54:09+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T14:54:09+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T14:54:09+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T14:54:09+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T14:54:09+00:00] INFO: Chef-client pid: 25623
+[2018-04-09T14:54:09+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T14:54:10+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T14:54:10+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T14:54:10+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T14:54:10+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T14:54:10+00:00] INFO: Running start handlers
+[2018-04-09T14:54:10+00:00] INFO: Start handlers complete.
+[2018-04-09T14:54:10+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T14:54:10+00:00] INFO: Storing updated cookbooks/java/recipes/default.rb in the cache.
+[2018-04-09T14:54:10+00:00] ERROR: Running exception handlers
+[2018-04-09T14:54:10+00:00] ERROR: Exception handlers complete
+[2018-04-09T14:54:10+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T14:54:10+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T14:54:10+00:00] ERROR: undefined method `tomcat_install' for cookbook: java, recipe: default :Chef::Recipe
+[2018-04-09T14:54:10+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T15:06:00+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T15:06:00+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T15:06:00+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T15:06:00+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T15:06:00+00:00] INFO: Chef-client pid: 26545
+[2018-04-09T15:06:00+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T15:06:02+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T15:06:02+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T15:06:02+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T15:06:02+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T15:06:02+00:00] INFO: Running start handlers
+[2018-04-09T15:06:02+00:00] INFO: Start handlers complete.
+[2018-04-09T15:06:02+00:00] INFO: Loading cookbooks [java@0.0.0]
+[2018-04-09T15:06:02+00:00] ERROR: Running exception handlers
+[2018-04-09T15:06:02+00:00] ERROR: Exception handlers complete
+[2018-04-09T15:06:02+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T15:06:02+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T15:06:02+00:00] ERROR: undefined method `tomcat_install' for cookbook: java, recipe: default :Chef::Recipe
+[2018-04-09T15:06:02+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+[2018-04-09T15:08:25+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /home/ec2-user/newChef/Assignments/Chef_solo
+  One version per cookbook
+
+[2018-04-09T15:08:25+00:00] INFO: Forking chef instance to converge...
+[2018-04-09T15:08:25+00:00] INFO: *** Chef 13.2.20 ***
+[2018-04-09T15:08:25+00:00] INFO: Platform: x86_64-linux
+[2018-04-09T15:08:25+00:00] INFO: Chef-client pid: 26946
+[2018-04-09T15:08:25+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-04-09T15:08:27+00:00] INFO: Setting the run_list to ["recipe[java::default]"] from CLI options
+[2018-04-09T15:08:27+00:00] INFO: Run List is [recipe[java::default]]
+[2018-04-09T15:08:27+00:00] INFO: Run List expands to [java::default]
+[2018-04-09T15:08:27+00:00] INFO: Starting Chef Run for ip-10-0-1-156.us-east-2.compute.internal
+[2018-04-09T15:08:27+00:00] INFO: Running start handlers
+[2018-04-09T15:08:27+00:00] INFO: Start handlers complete.
+[2018-04-09T15:08:27+00:00] ERROR: Could not read /home/ec2-user/newChef/Assignments/Chef_solo/cookbooks/java into a Chef object: Cookbook loaded at path(s) [/home/ec2-user/newChef/Assignments/Chef_solo/cookbooks/java] has invalid metadata: The `name' attribute is required in cookbook metadata
+[2018-04-09T15:08:27+00:00] ERROR: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/cookbook/cookbook_version_loader.rb:157:in `raise_metadata_error!'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/cookbook/cookbook_version_loader.rb:63:in `load'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/chef_fs/file_system/repository/chef_repository_file_system_cookbook_dir.rb:136:in `cookbook_version'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/chef_fs/file_system/repository/chef_repository_file_system_cookbook_dir.rb:83:in `chef_object'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/chef_fs/chef_fs_data_store.rb:314:in `block in get'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/chef_fs/chef_fs_data_store.rb:786:in `with_entry'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/chef_fs/chef_fs_data_store.rb:310:in `get'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:47:in `block in get'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:113:in `fix_exceptions'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:40:in `get'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/rest_base.rb:82:in `get_data'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:77:in `block in depsolve'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:71:in `each'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:71:in `depsolve'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:37:in `post'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/rest_base.rb:59:in `call'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/rest_router.rb:24:in `call'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/server.rb:663:in `block in app'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/server.rb:335:in `handle_socketless_request'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/socketless_server_map.rb:87:in `request'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.0.0/lib/chef_zero/socketless_server_map.rb:33:in `request'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/http/socketless_chef_zero_client.rb:154:in `request'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/http.rb:375:in `block in send_http_request'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/http.rb:407:in `block in retrying_http_errors'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/http.rb:405:in `loop'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/http.rb:405:in `retrying_http_errors'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/http.rb:368:in `send_http_request'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/http.rb:149:in `request'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/http.rb:131:in `post'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/policy_builder/expand_node_object.rb:177:in `sync_cookbooks'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/policy_builder/expand_node_object.rb:83:in `setup_run_context'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/client.rb:513:in `setup_run_context'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/client.rb:281:in `run'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application.rb:291:in `block in fork_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application.rb:279:in `fork'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application.rb:279:in `fork_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application.rb:244:in `block in run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application.rb:232:in `run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application/client.rb:469:in `sleep_then_run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application/client.rb:458:in `block in interval_run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application/client.rb:457:in `loop'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application/client.rb:457:in `interval_run_chef_client'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application/client.rb:441:in `run_application'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application.rb:59:in `run'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/lib/chef/application/solo.rb:225:in `run'
+/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.2.20/bin/chef-solo:25:in `<top (required)>'
+/bin/chef-solo:263:in `load'
+/bin/chef-solo:263:in `<main>'
+[2018-04-09T15:08:27+00:00] INFO: HTTP Request Returned 500 Internal Server Error: error
+[2018-04-09T15:08:27+00:00] ERROR: Running exception handlers
+[2018-04-09T15:08:27+00:00] ERROR: Exception handlers complete
+[2018-04-09T15:08:27+00:00] FATAL: Stacktrace dumped to /home/ec2-user/newChef/Assignments/Chef_solo/.chef/cache/chef-stacktrace.out
+[2018-04-09T15:08:27+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-04-09T15:08:27+00:00] ERROR: 500 "Internal Server Error"
+[2018-04-09T15:08:27+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
