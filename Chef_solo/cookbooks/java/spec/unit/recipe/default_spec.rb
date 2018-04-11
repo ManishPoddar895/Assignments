@@ -6,7 +6,7 @@ describe 'java::default' do
  
 
 it 'runs a execute with the default action' do
-   expect(chef_run).to run_execute('install java')
+   expect(chef_run).to run_execute('Install Java')
  end
 
 end
