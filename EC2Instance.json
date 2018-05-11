@@ -1,0 +1,105 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "CloudFormation template for creating an ec2 instance",
+	
+    "Parameters" : {
+
+		"KeyName" : {
+			"Description" : "EC2 Key Pair",
+			"Type" : "String",
+			"Default" : "own",
+			"MinLength": "1",
+			"MaxLength": "64",
+			"AllowedPattern" : "[-_ a-zA-Z0-9]*",
+			"ConstraintDescription" : "can contain only alphanumeric characters, spaces, dashes and underscores."
+			},
+
+		"InstanceType" : {
+			"Description" : "EC2 Instance type",
+			"Type" : "String",
+			"Default" : "t2.micro",
+			"AllowedValues" : [ 
+				"t2.micro",
+				"m1.small",
+				"m1.large",
+				"m1.xlarge",
+				"m2.xlarge",
+				"m2.2xlarge",
+				"m2.4xlarge",
+				"m3.medium",
+				"m3.xlarge",
+				"c4.xlarge",
+				"c4.4xlarge",
+				"m3.2xlarge",
+				"c1.medium",
+				"c1.xlarge",
+				"cc1.4xlarge",
+				"c4.large",
+				"cc2.8xlarge",
+				"cg1.4xlarge"
+				],
+			"ConstraintDescription" : "Must be a valid EC2 instance type."
+			}
+
+	},
+	
+	
+    "Resources":{
+	
+	
+        "SecurityGroup":{
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "GroupDescription": "My security group",
+                "VpcId": "vpc-06bb8d95600063fd3",
+                "SecurityGroupIngress": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": "80",
+                    "ToPort": "80",
+                    "CidrIp": "0.0.0.0/0"
+                },
+                
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": "22",
+                    "ToPort": "22",
+                    "CidrIp": "0.0.0.0/0"
+                }
+
+				],
+				
+				
+				"SecurityGroupEgress": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": "80",
+                    "ToPort": "80",
+                    "CidrIp": "0.0.0.0/0"
+                },
+                
+                 {
+                    "IpProtocol": "tcp",
+                    "FromPort": "443",
+                    "ToPort": "443",
+                    "CidrIp": "0.0.0.0/0"
+                }
+               
+				]
+            }
+        },
+		
+		
+        "EC2": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {
+                "ImageId": "ami-ee6f5e8b",
+                "InstanceType": {"Ref": "InstanceType"},
+                "KeyName": {"Ref": "KeyName"},
+                "SecurityGroupIds": [{"Ref": "SecurityGroup"}],
+                "SubnetId": "subnet-02591f6431d5175c7"
+            }
+        }
+    }
+   
+}
