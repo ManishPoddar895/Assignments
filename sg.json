@@ -11,7 +11,6 @@
             "Type": "AWS::EC2::SecurityGroup",
             "Properties": {
                 "GroupDescription": "Allow HTTP & SSH",
-                "VpcId": "vpc-06bb8d95600063fd3",
                 "SecurityGroupIngress": [
                 {
                     "IpProtocol": "tcp",
@@ -30,29 +29,26 @@
 				],
 				
 				
-				"SecurityGroupEgress": [
-                {
-                    "IpProtocol": "tcp",
-                    "FromPort": "80",
-                    "ToPort": "80",
-                    "CidrIp": "0.0.0.0/0"
-                },
-                
-                 {
-                    "IpProtocol": "tcp",
-                    "FromPort": "443",
-                    "ToPort": "443",
-                    "CidrIp": "0.0.0.0/0"
-                }
-               
+				"Tags" : [
+					{"Key": "Name", "Value": "Project_EC2_SG"}
 				]
-			
+				
             }
         }
 		
 	
-    }
+    },
+	
+	
+	"Outputs" : {
+		"sg" : {
+		"Description" : "sg for Instance",
+		"Value" :  { "Ref" : "SGManish" },
+		"Export" : { "Name" : "sg1"}}
+	}
+	
 }
+
 
 
 
