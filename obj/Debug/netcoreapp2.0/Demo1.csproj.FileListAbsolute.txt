@@ -1,0 +1,11 @@
+/home/ubuntu/Demo1/bin/Debug/netcoreapp2.0/Demo1.deps.json
+/home/ubuntu/Demo1/bin/Debug/netcoreapp2.0/Demo1.runtimeconfig.json
+/home/ubuntu/Demo1/bin/Debug/netcoreapp2.0/Demo1.runtimeconfig.dev.json
+/home/ubuntu/Demo1/bin/Debug/netcoreapp2.0/Demo1.dll
+/home/ubuntu/Demo1/bin/Debug/netcoreapp2.0/Demo1.pdb
+/home/ubuntu/Demo1/obj/Debug/netcoreapp2.0/Demo1.csprojAssemblyReference.cache
+/home/ubuntu/Demo1/obj/Debug/netcoreapp2.0/Demo1.csproj.CoreCompileInputs.cache
+/home/ubuntu/Demo1/obj/Debug/netcoreapp2.0/Demo1.AssemblyInfoInputs.cache
+/home/ubuntu/Demo1/obj/Debug/netcoreapp2.0/Demo1.AssemblyInfo.cs
+/home/ubuntu/Demo1/obj/Debug/netcoreapp2.0/Demo1.dll
+/home/ubuntu/Demo1/obj/Debug/netcoreapp2.0/Demo1.pdb
