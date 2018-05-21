@@ -1,0 +1,365 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "CloudFormation template for creating VPC",
+	
+    "Parameters" : {
+
+		"KeyName" : {
+			"Description" : "EC2 Key Pair",
+			"Type" : "String",
+			"Default" : "own",
+			"MinLength": "1",
+			"MaxLength": "64",
+			"AllowedPattern" : "[-_ a-zA-Z0-9]*",
+			"ConstraintDescription" : "can contain only alphanumeric characters, spaces, dashes and underscores."
+			},
+
+		"InstanceType" : {
+			"Description" : "EC2 Instance type",
+			"Type" : "String",
+			"Default" : "t2.micro",
+			"AllowedValues" : [ 
+				"t2.micro",
+				"m1.small",
+				"m1.large",
+				"m1.xlarge",
+				"m2.xlarge",
+				"m2.2xlarge",
+				"m2.4xlarge",
+				"m3.medium",
+				"m3.xlarge",
+				"c4.xlarge",
+				"c4.4xlarge",
+				"m3.2xlarge",
+				"c1.medium",
+				"c1.xlarge",
+				"cc1.4xlarge",
+				"c4.large",
+				"cc2.8xlarge",
+				"cg1.4xlarge"
+				],
+			"ConstraintDescription" : "Must be a valid EC2 instance type."
+			}
+
+	},
+	
+	
+    "Resources":{
+	
+        "VPC" : {
+            "Type" : "AWS::EC2::VPC",
+            "Properties" : {
+                "CidrBlock" : "20.0.0.0/16",
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    { "Key": "Name", "Value": "Project_VPC"},
+                    {"Key" : "Network", "Value" : "Public" }
+                ]
+            }
+        },
+
+        "PublicSubnet" : {
+            "Type" : "AWS::EC2::Subnet",
+            "Properties" : {
+                "VpcId" : { "Ref" : "VPC" },
+                "CidrBlock" : "20.0.1.0/24",
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Public" },
+                    { "Key": "Name", "Value": "Project_Public_Subnet"}
+                ]
+            }
+        },
+		
+		"PrivateSubnet" : {
+            "Type" : "AWS::EC2::Subnet",
+            "Properties" : {
+                "VpcId" : { "Ref" : "VPC" },
+                "CidrBlock" : "20.0.2.0/24",
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Private" },
+                    { "Key": "Name", "Value": "Project_Private_Subnet"}
+                ]
+            }
+        },
+		
+		"DataSubnet" : {
+            "Type" : "AWS::EC2::Subnet",
+            "Properties" : {
+                "VpcId" : { "Ref" : "VPC" },
+                "CidrBlock" : "20.0.3.0/24",
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Data" },
+                    { "Key": "Name", "Value": "Project_Data_Subnet"}
+                ]
+            }
+        },
+
+        "InternetGateway" : {
+            "Type" : "AWS::EC2::InternetGateway",
+            "Properties" : {
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Public" },
+                    { "Key": "Name", "Value": "Project_Internetgateway"}
+                ]
+            }
+        },
+
+        "AttachGateway" : {
+            "Type" : "AWS::EC2::VPCGatewayAttachment",
+            "Properties" : {
+                "VpcId" : { "Ref" : "VPC" },
+                "InternetGatewayId" : { "Ref" : "InternetGateway" }
+            }
+        },
+
+        "PublicRouteTable" : {
+            "Type" : "AWS::EC2::RouteTable",
+            "Properties" : {
+                "VpcId" : {"Ref" : "VPC"},
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Public" },
+                    { "Key": "Name", "Value": "Project_VPC_Public_RouteTable"}
+                ]
+            }
+        },
+
+        "PublicRoute" : {
+            "Type" : "AWS::EC2::Route",
+            "DependsOn" : "AttachGateway",
+            "Properties" : {
+                "RouteTableId" : { "Ref" : "PublicRouteTable" },
+                "DestinationCidrBlock" : "0.0.0.0/0",
+                "GatewayId" : { "Ref" : "InternetGateway" }
+            }
+        },
+
+        "PublicSubnetRouteTableAssociation" : {
+            "Type" : "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties" : {
+                "SubnetId" : { "Ref" : "PublicSubnet" },
+                "RouteTableId" : { "Ref" : "PublicRouteTable" }
+            }
+        },
+		
+		
+		"PrivateRouteTable" : {
+            "Type" : "AWS::EC2::RouteTable",
+            "Properties" : {
+                "VpcId" : {"Ref" : "VPC"},
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Private" },
+                    { "Key": "Name", "Value": "Project_VPC_Private_RouteTable"}
+                ]
+            }
+        },
+
+        "PrivateSubnetRouteTableAssociation" : {
+            "Type" : "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties" : {
+                "SubnetId" : { "Ref" : "PrivateSubnet" },
+                "RouteTableId" : { "Ref" : "PrivateRouteTable" }
+            }
+        },
+		
+		"DataRouteTable" : {
+            "Type" : "AWS::EC2::RouteTable",
+            "Properties" : {
+                "VpcId" : {"Ref" : "VPC"},
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Private" },
+                    { "Key": "Name", "Value": "Project_VPC_Data_RouteTable"}
+                ]
+            }
+        },
+
+        "DataSubnetRouteTableAssociation" : {
+            "Type" : "AWS::EC2::SubnetRouteTableAssociation",
+            "Properties" : {
+                "SubnetId" : { "Ref" : "DataSubnet" },
+                "RouteTableId" : { "Ref" : "DataRouteTable" }
+            }
+        },
+
+
+        "PublicNetworkAcl" : {
+            "Type" : "AWS::EC2::NetworkAcl",
+            "Properties" : {
+                "VpcId" : {"Ref" : "VPC"},
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Public" },
+                    {"Key": "Name", "Value": "Project_VPC_PublicNetworkacl"}
+                ]
+            }
+        },
+
+        "InboundPublicNetworkAclEntry" : {
+            "Type" : "AWS::EC2::NetworkAclEntry",
+            "Properties" : {
+                "NetworkAclId" : {"Ref" : "PublicNetworkAcl"},
+                "RuleNumber" : "100",
+                "Protocol" : "-1",
+                "RuleAction" : "allow",
+                "Egress" : "false",
+                "CidrBlock" : "0.0.0.0/0"
+            }
+        },
+
+        
+        "OutboundPublicNetworkAclEntry" : {
+            "Type" : "AWS::EC2::NetworkAclEntry",
+            "Properties" : {
+                "NetworkAclId" : {"Ref" : "PublicNetworkAcl"},
+                "RuleNumber" : "100",
+                "Protocol" : "-1",
+                "RuleAction" : "allow",
+                "Egress" : "true",
+                "CidrBlock" : "0.0.0.0/0",
+                "PortRange" : {"From" : "0", "To" : "65535"}
+            }
+        },
+
+        
+
+        "PublicSubnetNetworkAclAssociation" : {
+            "Type" : "AWS::EC2::SubnetNetworkAclAssociation",
+            "Properties" : {
+                "SubnetId" : { "Ref" : "PublicSubnet" },
+                "NetworkAclId" : { "Ref" : "PublicNetworkAcl" }
+            }
+        },
+		
+		
+		"PrivateNetworkAcl" : {
+            "Type" : "AWS::EC2::NetworkAcl",
+            "Properties" : {
+                "VpcId" : {"Ref" : "VPC"},
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Private" },
+                    {"Key": "Name", "Value": "Project_VPC_PrivateNetworkacl"}
+                ]
+            }
+        },
+
+        "InboundPPrivateNetworkAclEntry" : {
+            "Type" : "AWS::EC2::NetworkAclEntry",
+            "Properties" : {
+                "NetworkAclId" : {"Ref" : "PrivateNetworkAcl"},
+                "RuleNumber" : "100",
+                "Protocol" : "-1",
+                "RuleAction" : "allow",
+                "Egress" : "false",
+                "CidrBlock" : "20.0.1.0/24",
+                "PortRange" : {"From" : "0", "To" : "65535"}
+            }
+        },
+		
+		"InboundDPrivateNetworkAclEntry" : {
+            "Type" : "AWS::EC2::NetworkAclEntry",
+            "Properties" : {
+                "NetworkAclId" : {"Ref" : "PrivateNetworkAcl"},
+                "RuleNumber" : "101",
+                "Protocol" : "-1",
+                "RuleAction" : "allow",
+                "Egress" : "false",
+                "CidrBlock" : "20.0.3.0/24",
+                "PortRange" : {"From" : "0", "To" : "65535"}
+            }
+        },
+
+
+        "OutboundPPrivateNetworkAclEntry" : {
+            "Type" : "AWS::EC2::NetworkAclEntry",
+            "Properties" : {
+                "NetworkAclId" : {"Ref" : "PrivateNetworkAcl"},
+                "RuleNumber" : "100",
+                "Protocol" : "-1",
+                "RuleAction" : "allow",
+                "Egress" : "true",
+                "CidrBlock" : "20.0.1.0/24",
+                "PortRange" : {"From" : "0", "To" : "65535"}
+            }
+        },
+		
+		"OutboundDPrivateNetworkAclEntry" : {
+            "Type" : "AWS::EC2::NetworkAclEntry",
+            "Properties" : {
+                "NetworkAclId" : {"Ref" : "PrivateNetworkAcl"},
+                "RuleNumber" : "101",
+                "Protocol" : "-1",
+                "RuleAction" : "allow",
+                "Egress" : "true",
+                "CidrBlock" : "20.0.3.0/24",
+                "PortRange" : {"From" : "0", "To" : "65535"}
+            }
+        },
+
+        
+        "PrivateSubnetNetworkAclAssociation" : {
+            "Type" : "AWS::EC2::SubnetNetworkAclAssociation",
+            "Properties" : {
+                "SubnetId" : { "Ref" : "PrivateSubnet" },
+                "NetworkAclId" : { "Ref" : "PrivateNetworkAcl" }
+            }
+        },
+		
+		"DataNetworkAcl" : {
+            "Type" : "AWS::EC2::NetworkAcl",
+            "Properties" : {
+                "VpcId" : {"Ref" : "VPC"},
+                "Tags" : [
+                    {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
+                    {"Key" : "Network", "Value" : "Data" },
+                    {"Key": "Name", "Value": "Project_VPC_DataNetworkacl"}
+                ]
+            }
+        },
+
+        "InboundDataNetworkAclEntry" : {
+            "Type" : "AWS::EC2::NetworkAclEntry",
+            "Properties" : {
+                "NetworkAclId" : {"Ref" : "DataNetworkAcl"},
+                "RuleNumber" : "100",
+                "Protocol" : "-1",
+                "RuleAction" : "allow",
+                "Egress" : "false",
+                "CidrBlock" : "20.0.2.0/24",
+                "PortRange" : {"From" : "0", "To" : "65535"}
+            }
+        },
+
+
+        "OutboundDataNetworkAclEntry" : {
+            "Type" : "AWS::EC2::NetworkAclEntry",
+            "Properties" : {
+                "NetworkAclId" : {"Ref" : "DataNetworkAcl"},
+                "RuleNumber" : "100",
+                "Protocol" : "-1",
+                "RuleAction" : "allow",
+                "Egress" : "true",
+                "CidrBlock" : "20.0.2.0/24",
+                "PortRange" : {"From" : "0", "To" : "65535"}
+            }
+        },
+		
+        
+        "DataSubnetNetworkAclAssociation" : {
+            "Type" : "AWS::EC2::SubnetNetworkAclAssociation",
+            "Properties" : {
+                "SubnetId" : { "Ref" : "DataSubnet" },
+                "NetworkAclId" : { "Ref" : "DataNetworkAcl" }
+            }
+        }
+		
+		 
+	}
+   
+}
