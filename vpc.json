@@ -1,49 +1,7 @@
 {
     "AWSTemplateFormatVersion": "2010-09-09",
     "Description": "CloudFormation template for creating VPC",
-	
-    "Parameters" : {
 
-		"KeyName" : {
-			"Description" : "EC2 Key Pair",
-			"Type" : "String",
-			"Default" : "own",
-			"MinLength": "1",
-			"MaxLength": "64",
-			"AllowedPattern" : "[-_ a-zA-Z0-9]*",
-			"ConstraintDescription" : "can contain only alphanumeric characters, spaces, dashes and underscores."
-			},
-
-		"InstanceType" : {
-			"Description" : "EC2 Instance type",
-			"Type" : "String",
-			"Default" : "t2.micro",
-			"AllowedValues" : [ 
-				"t2.micro",
-				"m1.small",
-				"m1.large",
-				"m1.xlarge",
-				"m2.xlarge",
-				"m2.2xlarge",
-				"m2.4xlarge",
-				"m3.medium",
-				"m3.xlarge",
-				"c4.xlarge",
-				"c4.4xlarge",
-				"m3.2xlarge",
-				"c1.medium",
-				"c1.xlarge",
-				"cc1.4xlarge",
-				"c4.large",
-				"cc2.8xlarge",
-				"cg1.4xlarge"
-				],
-			"ConstraintDescription" : "Must be a valid EC2 instance type."
-			}
-
-	},
-	
-	
     "Resources":{
 	
         "VPC" : {
@@ -266,7 +224,7 @@
             "Type" : "AWS::EC2::NetworkAclEntry",
             "Properties" : {
                 "NetworkAclId" : {"Ref" : "PrivateNetworkAcl"},
-                "RuleNumber" : "101",
+                "RuleNumber" : "200",
                 "Protocol" : "-1",
                 "RuleAction" : "allow",
                 "Egress" : "false",
@@ -293,7 +251,7 @@
             "Type" : "AWS::EC2::NetworkAclEntry",
             "Properties" : {
                 "NetworkAclId" : {"Ref" : "PrivateNetworkAcl"},
-                "RuleNumber" : "101",
+                "RuleNumber" : "200",
                 "Protocol" : "-1",
                 "RuleAction" : "allow",
                 "Egress" : "true",
