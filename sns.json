@@ -1,0 +1,92 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "CloudFormation template for creating VPC",
+
+	"Parameters": {
+	
+        "EmailId": {
+            "Description": "Email to send Notification",
+            "Type": "String"
+        }
+		
+		
+		
+	},
+	
+	
+    "Resources":{
+	
+		"CPUSNSTopic" : {
+			"Type" : "AWS::SNS::Topic",
+			"Properties" : {
+				"Subscription" : [ {
+					"Endpoint" : { "Ref" : "EmailId" },
+					"Protocol" : "email"
+				} ]
+			}
+		},
+		
+		"MemorySNSTopic" : {
+			"Type" : "AWS::SNS::Topic",
+			"Properties" : {
+				"Subscription" : [ {
+					"Endpoint" : { "Ref" : "EmailId" },
+					"Protocol" : "email"
+				} ]
+			}
+		},
+		
+		
+		"CPUAlarm" : {
+			"Type" : "AWS::CloudWatch::Alarm",
+			"Properties" : {
+				"AlarmDescription" : "CPU alarm for my instance",
+				"AlarmActions" : [ { "Ref" : "CPUSNSTopic" } ],
+				"MetricName" : "CPUUtilization",
+				"Namespace" : "AWS/EC2",
+				"Statistic" : "Average",
+				"Period" : "300",
+				"EvaluationPeriods" : "1",
+				"Threshold" : "60",
+				"ComparisonOperator" : "GreaterThanOrEqualToThreshold",
+				"Dimensions" : [ {
+				  "Name" : "AutoScalingGroupName",
+				  "Value" : "asg"
+				} ],
+				
+				"AlarmName" : "ASG_CPUAlarm"
+				
+				
+				
+			}
+		},
+		
+		"MemoryAlarm" : {
+			"Type" : "AWS::CloudWatch::Alarm",
+			"Properties" : {
+				"AlarmDescription" : "Memory alarm for my instance",
+				"AlarmActions" : [ { "Ref" : "MemorySNSTopic" } ],
+				"MetricName" : "MemoryUtilization",
+				"Namespace" : "System/Linux",
+				"Statistic" : "Average",
+				"Period" : "300",
+				"EvaluationPeriods" : "1",
+				"Threshold" : "70",
+				"ComparisonOperator" : "GreaterThanOrEqualToThreshold",
+				"Dimensions" : [ {
+				  "Name" : "AutoScalingGroupName",
+				  "Value" : "asg"
+				} ],
+				
+				"AlarmName" : "ASG_MemoryAlarm"
+			}
+		}
+		
+		
+        
+
+     
+		 
+	}
+   
+}
