@@ -4,6 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'this is build job'
+        git(poll: true, url: 'https://github.com/ManishPoddar895/Assignments.git', branch: 'java')
       }
     }
     stage('test') {
