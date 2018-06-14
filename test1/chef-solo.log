@@ -1,0 +1,280 @@
+# Logfile created on 2018-06-14 15:46:31 +0530 by logger.rb/56815
+[2018-06-14T15:46:32+05:30] INFO: Started chef-zero at chefzero://localhost:1 with repository at C:/Users/mpoddar/Desktop/test1
+  One version per cookbook
+
+[2018-06-14T15:46:32+05:30] INFO: *** Chef 13.8.5 ***
+[2018-06-14T15:46:32+05:30] INFO: Platform: x64-mingw32
+[2018-06-14T15:46:32+05:30] INFO: Chef-client pid: 12284
+[2018-06-14T15:46:32+05:30] INFO: The plugin path C:\chef\ohai\plugins does not exist. Skipping...
+[2018-06-14T15:46:37+05:30] INFO: Setting the run_list to ["recipe[demo]"] from CLI options
+[2018-06-14T15:46:37+05:30] INFO: Run List is [recipe[demo]]
+[2018-06-14T15:46:37+05:30] INFO: Run List expands to [demo]
+[2018-06-14T15:46:37+05:30] INFO: Starting Chef Run for TAVDESK120.internal.tavisca.com
+[2018-06-14T15:46:37+05:30] INFO: Running start handlers
+[2018-06-14T15:46:37+05:30] INFO: Start handlers complete.
+[2018-06-14T15:46:37+05:30] ERROR: Could not read C:/Users/mpoddar/Desktop/test1/cookbooks/demo into a Chef object: Cookbook loaded at path(s) [C:/Users/mpoddar/Desktop/test1/cookbooks/demo] has invalid metadata: The `name' attribute is required in cookbook metadata
+[2018-06-14T15:46:37+05:30] ERROR: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/cookbook/cookbook_version_loader.rb:157:in `raise_metadata_error!'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/cookbook/cookbook_version_loader.rb:63:in `load'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/file_system/repository/chef_repository_file_system_cookbook_dir.rb:136:in `cookbook_version'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/file_system/repository/chef_repository_file_system_cookbook_dir.rb:83:in `chef_object'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/chef_fs_data_store.rb:314:in `block in get'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/chef_fs_data_store.rb:786:in `with_entry'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/chef_fs_data_store.rb:310:in `get'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:47:in `block in get'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:113:in `fix_exceptions'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:40:in `get'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/rest_base.rb:82:in `get_data'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:77:in `block in depsolve'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:71:in `each'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:71:in `depsolve'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:37:in `post'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/rest_base.rb:59:in `call'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/rest_router.rb:24:in `call'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/server.rb:665:in `block in app'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/server.rb:336:in `handle_socketless_request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/socketless_server_map.rb:87:in `request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/socketless_server_map.rb:33:in `request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http/socketless_chef_zero_client.rb:154:in `request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:372:in `block in send_http_request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:404:in `block in retrying_http_errors'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:402:in `loop'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:402:in `retrying_http_errors'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:365:in `send_http_request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:149:in `request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:131:in `post'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:177:in `sync_cookbooks'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:83:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/client.rb:513:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/client.rb:281:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application.rb:274:in `run_with_graceful_exit_option'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application.rb:250:in `block in run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application.rb:233:in `run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:469:in `sleep_then_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:458:in `block in interval_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:457:in `loop'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:457:in `interval_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:441:in `run_application'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application.rb:59:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/solo.rb:225:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/bin/chef-solo:25:in `<top (required)>'
+C:/opscode/chefdk/bin/chef-solo:262:in `load'
+C:/opscode/chefdk/bin/chef-solo:262:in `<main>'
+[2018-06-14T15:46:37+05:30] INFO: HTTP Request Returned 500 Internal Server Error: error
+[2018-06-14T15:46:37+05:30] ERROR: Running exception handlers
+[2018-06-14T15:46:37+05:30] ERROR: Exception handlers complete
+[2018-06-14T15:46:37+05:30] FATAL: Stacktrace dumped to C:/Users/mpoddar/Desktop/test1/.chef/cache/chef-stacktrace.out
+[2018-06-14T15:46:37+05:30] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-06-14T15:46:37+05:30] FATAL: Net::HTTPFatalError: 500 "Internal Server Error"
+[2018-06-14T15:47:01+05:30] INFO: Started chef-zero at chefzero://localhost:1 with repository at C:/Users/mpoddar/Desktop/test1
+  One version per cookbook
+
+[2018-06-14T15:47:01+05:30] INFO: *** Chef 13.8.5 ***
+[2018-06-14T15:47:01+05:30] INFO: Platform: x64-mingw32
+[2018-06-14T15:47:01+05:30] INFO: Chef-client pid: 15148
+[2018-06-14T15:47:01+05:30] INFO: The plugin path C:\chef\ohai\plugins does not exist. Skipping...
+[2018-06-14T15:47:06+05:30] INFO: Setting the run_list to ["recipe[demo]"] from CLI options
+[2018-06-14T15:47:06+05:30] INFO: Run List is [recipe[demo]]
+[2018-06-14T15:47:06+05:30] INFO: Run List expands to [demo]
+[2018-06-14T15:47:06+05:30] INFO: Starting Chef Run for TAVDESK120.internal.tavisca.com
+[2018-06-14T15:47:06+05:30] INFO: Running start handlers
+[2018-06-14T15:47:06+05:30] INFO: Start handlers complete.
+[2018-06-14T15:47:06+05:30] ERROR: Could not read C:/Users/mpoddar/Desktop/test1/cookbooks/demo into a Chef object: Cookbook loaded at path(s) [C:/Users/mpoddar/Desktop/test1/cookbooks/demo] has invalid metadata: The `name' attribute is required in cookbook metadata
+[2018-06-14T15:47:06+05:30] ERROR: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/cookbook/cookbook_version_loader.rb:157:in `raise_metadata_error!'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/cookbook/cookbook_version_loader.rb:63:in `load'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/file_system/repository/chef_repository_file_system_cookbook_dir.rb:136:in `cookbook_version'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/file_system/repository/chef_repository_file_system_cookbook_dir.rb:83:in `chef_object'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/chef_fs_data_store.rb:314:in `block in get'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/chef_fs_data_store.rb:786:in `with_entry'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/chef_fs/chef_fs_data_store.rb:310:in `get'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:47:in `block in get'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:113:in `fix_exceptions'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/data_store/v1_to_v2_adapter.rb:40:in `get'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/rest_base.rb:82:in `get_data'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:77:in `block in depsolve'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:71:in `each'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:71:in `depsolve'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/endpoints/environment_cookbook_versions_endpoint.rb:37:in `post'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/rest_base.rb:59:in `call'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/rest_router.rb:24:in `call'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/server.rb:665:in `block in app'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/server.rb:336:in `handle_socketless_request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/socketless_server_map.rb:87:in `request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-zero-13.1.0/lib/chef_zero/socketless_server_map.rb:33:in `request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http/socketless_chef_zero_client.rb:154:in `request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:372:in `block in send_http_request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:404:in `block in retrying_http_errors'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:402:in `loop'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:402:in `retrying_http_errors'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:365:in `send_http_request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:149:in `request'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/http.rb:131:in `post'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:177:in `sync_cookbooks'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/policy_builder/expand_node_object.rb:83:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/client.rb:513:in `setup_run_context'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/client.rb:281:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application.rb:274:in `run_with_graceful_exit_option'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application.rb:250:in `block in run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/local_mode.rb:44:in `with_server_connectivity'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application.rb:233:in `run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:469:in `sleep_then_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:458:in `block in interval_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:457:in `loop'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:457:in `interval_run_chef_client'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/client.rb:441:in `run_application'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application.rb:59:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib/chef/application/solo.rb:225:in `run'
+C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/bin/chef-solo:25:in `<top (required)>'
+C:/opscode/chefdk/bin/chef-solo:262:in `load'
+C:/opscode/chefdk/bin/chef-solo:262:in `<main>'
+[2018-06-14T15:47:06+05:30] INFO: HTTP Request Returned 500 Internal Server Error: error
+[2018-06-14T15:47:06+05:30] ERROR: Running exception handlers
+[2018-06-14T15:47:06+05:30] ERROR: Exception handlers complete
+[2018-06-14T15:47:06+05:30] FATAL: Stacktrace dumped to C:/Users/mpoddar/Desktop/test1/.chef/cache/chef-stacktrace.out
+[2018-06-14T15:47:06+05:30] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-06-14T15:47:06+05:30] FATAL: Net::HTTPFatalError: 500 "Internal Server Error"
+[2018-06-14T15:53:05+05:30] INFO: Started chef-zero at chefzero://localhost:1 with repository at C:/Users/mpoddar/Desktop/test1
+  One version per cookbook
+
+[2018-06-14T15:53:06+05:30] INFO: *** Chef 13.8.5 ***
+[2018-06-14T15:53:06+05:30] INFO: Platform: x64-mingw32
+[2018-06-14T15:53:06+05:30] INFO: Chef-client pid: 15608
+[2018-06-14T15:53:06+05:30] INFO: The plugin path C:\chef\ohai\plugins does not exist. Skipping...
+[2018-06-14T15:53:11+05:30] INFO: Setting the run_list to ["recipe[demo]"] from CLI options
+[2018-06-14T15:53:11+05:30] INFO: Run List is [recipe[demo]]
+[2018-06-14T15:53:11+05:30] INFO: Run List expands to [demo]
+[2018-06-14T15:53:11+05:30] INFO: Starting Chef Run for TAVDESK120.internal.tavisca.com
+[2018-06-14T15:53:11+05:30] INFO: Running start handlers
+[2018-06-14T15:53:11+05:30] INFO: Start handlers complete.
+[2018-06-14T15:53:11+05:30] INFO: Loading cookbooks [demo@0.1.0]
+[2018-06-14T15:53:11+05:30] INFO: Storing updated cookbooks/demo/metadata.rb in the cache.
+[2018-06-14T15:53:11+05:30] INFO: Storing updated cookbooks/demo/attributes/file.rb in the cache.
+[2018-06-14T15:53:11+05:30] INFO: Storing updated cookbooks/demo/recipes/default.rb in the cache.
+[2018-06-14T15:53:11+05:30] INFO: Storing updated cookbooks/demo/spec/unit/recipe/default_spec.rb in the cache.
+[2018-06-14T15:53:11+05:30] ERROR: Running exception handlers
+[2018-06-14T15:53:11+05:30] ERROR: Exception handlers complete
+[2018-06-14T15:53:11+05:30] FATAL: Stacktrace dumped to C:/Users/mpoddar/Desktop/test1/.chef/cache/chef-stacktrace.out
+[2018-06-14T15:53:11+05:30] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-06-14T15:53:11+05:30] FATAL: SyntaxError: C:/Users/mpoddar/Desktop/test1/.chef/cache/cookbooks/demo/recipes/default.rb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+  content “Hello, this is my first cookbook recipe\n”
+                           ^
+C:/Users/mpoddar/Desktop/test1/.chef/cache/cookbooks/demo/recipes/default.rb:7: syntax error, unexpected $undefined
+s is my first cookbook recipe\n”
+                              ^
+[2018-06-14T15:54:17+05:30] INFO: Started chef-zero at chefzero://localhost:1 with repository at C:/Users/mpoddar/Desktop/test1
+  One version per cookbook
+
+[2018-06-14T15:54:17+05:30] INFO: *** Chef 13.8.5 ***
+[2018-06-14T15:54:17+05:30] INFO: Platform: x64-mingw32
+[2018-06-14T15:54:17+05:30] INFO: Chef-client pid: 11376
+[2018-06-14T15:54:17+05:30] INFO: The plugin path C:\chef\ohai\plugins does not exist. Skipping...
+[2018-06-14T15:54:22+05:30] INFO: Setting the run_list to ["recipe[demo]"] from CLI options
+[2018-06-14T15:54:22+05:30] INFO: Run List is [recipe[demo]]
+[2018-06-14T15:54:22+05:30] INFO: Run List expands to [demo]
+[2018-06-14T15:54:22+05:30] INFO: Starting Chef Run for TAVDESK120.internal.tavisca.com
+[2018-06-14T15:54:22+05:30] INFO: Running start handlers
+[2018-06-14T15:54:22+05:30] INFO: Start handlers complete.
+[2018-06-14T15:54:22+05:30] INFO: Loading cookbooks [demo@0.1.0]
+[2018-06-14T15:54:22+05:30] INFO: Storing updated cookbooks/demo/recipes/default.rb in the cache.
+[2018-06-14T15:54:22+05:30] INFO: Processing file[/home/user/hello.txt] action create (demo::default line 6)
+[2018-06-14T15:54:22+05:30] INFO: Running queued delayed notifications before re-raising exception
+[2018-06-14T15:54:22+05:30] ERROR: Running exception handlers
+[2018-06-14T15:54:22+05:30] ERROR: Exception handlers complete
+[2018-06-14T15:54:22+05:30] FATAL: Stacktrace dumped to C:/Users/mpoddar/Desktop/test1/.chef/cache/chef-stacktrace.out
+[2018-06-14T15:54:22+05:30] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-06-14T15:54:22+05:30] FATAL: Chef::Exceptions::EnclosingDirectoryDoesNotExist: file[/home/user/hello.txt] (demo::default line 6) had an error: Chef::Exceptions::EnclosingDirectoryDoesNotExist: Parent directory /home/user does not exist.
+[2018-06-14T15:55:29+05:30] INFO: Started chef-zero at chefzero://localhost:1 with repository at C:/Users/mpoddar/Desktop/test1
+  One version per cookbook
+
+[2018-06-14T15:55:29+05:30] INFO: *** Chef 13.8.5 ***
+[2018-06-14T15:55:29+05:30] INFO: Platform: x64-mingw32
+[2018-06-14T15:55:29+05:30] INFO: Chef-client pid: 12576
+[2018-06-14T15:55:29+05:30] INFO: The plugin path C:\chef\ohai\plugins does not exist. Skipping...
+[2018-06-14T15:55:34+05:30] INFO: Setting the run_list to ["recipe[demo]"] from CLI options
+[2018-06-14T15:55:34+05:30] INFO: Run List is [recipe[demo]]
+[2018-06-14T15:55:34+05:30] INFO: Run List expands to [demo]
+[2018-06-14T15:55:34+05:30] INFO: Starting Chef Run for TAVDESK120.internal.tavisca.com
+[2018-06-14T15:55:34+05:30] INFO: Running start handlers
+[2018-06-14T15:55:34+05:30] INFO: Start handlers complete.
+[2018-06-14T15:55:34+05:30] INFO: Loading cookbooks [demo@0.1.0]
+[2018-06-14T15:55:34+05:30] INFO: Storing updated cookbooks/demo/recipes/default.rb in the cache.
+[2018-06-14T15:55:34+05:30] INFO: Processing file[./hello.txt] action create (demo::default line 6)
+[2018-06-14T15:55:34+05:30] INFO: file[./hello.txt] created file ./hello.txt
+[2018-06-14T15:55:34+05:30] INFO: file[./hello.txt] updated file contents ./hello.txt
+[2018-06-14T15:55:34+05:30] INFO: Chef Run complete in 0.192203 seconds
+[2018-06-14T15:55:34+05:30] INFO: Running report handlers
+[2018-06-14T15:55:34+05:30] INFO: Report handlers complete
+[2018-06-14T15:55:34+05:30] WARN: *****************************************
+[2018-06-14T15:55:34+05:30] WARN: Did not find config file: C:/solo.rb, using command line options.
+[2018-06-14T15:55:34+05:30] WARN: *****************************************
+[2018-06-14T15:55:34+05:30] FATAL: Cannot load configuration from node.json
+[2018-06-14T16:00:31+05:30] INFO: Started chef-zero at chefzero://localhost:1 with repository at C:/Users/mpoddar/Desktop/test1
+  One version per cookbook
+
+[2018-06-14T16:00:32+05:30] INFO: *** Chef 13.8.5 ***
+[2018-06-14T16:00:32+05:30] INFO: Platform: x64-mingw32
+[2018-06-14T16:00:32+05:30] INFO: Chef-client pid: 8796
+[2018-06-14T16:00:32+05:30] INFO: The plugin path C:\chef\ohai\plugins does not exist. Skipping...
+[2018-06-14T16:00:37+05:30] INFO: Setting the run_list to ["recipe[demo]"] from CLI options
+[2018-06-14T16:00:37+05:30] INFO: Run List is [recipe[demo]]
+[2018-06-14T16:00:37+05:30] INFO: Run List expands to [demo]
+[2018-06-14T16:00:37+05:30] INFO: Starting Chef Run for TAVDESK120.internal.tavisca.com
+[2018-06-14T16:00:37+05:30] INFO: Running start handlers
+[2018-06-14T16:00:37+05:30] INFO: Start handlers complete.
+[2018-06-14T16:00:37+05:30] INFO: Loading cookbooks [demo@0.1.0]
+[2018-06-14T16:00:37+05:30] INFO: Storing updated cookbooks/demo/recipes/default.rb in the cache.
+[2018-06-14T16:00:37+05:30] INFO: Processing file[C:UsersmpoddarDesktop	est1/hello.txt] action create (demo::default line 6)
+[2018-06-14T16:00:37+05:30] INFO: Running queued delayed notifications before re-raising exception
+[2018-06-14T16:00:37+05:30] ERROR: Running exception handlers
+[2018-06-14T16:00:37+05:30] ERROR: Exception handlers complete
+[2018-06-14T16:00:37+05:30] FATAL: Stacktrace dumped to C:/Users/mpoddar/Desktop/test1/.chef/cache/chef-stacktrace.out
+[2018-06-14T16:00:37+05:30] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-06-14T16:00:37+05:30] FATAL: Chef::Exceptions::EnclosingDirectoryDoesNotExist: file[C:UsersmpoddarDesktop	est1/hello.txt] (demo::default line 6) had an error: Chef::Exceptions::EnclosingDirectoryDoesNotExist: Parent directory C:UsersmpoddarDesktop	est1 does not exist.
+[2018-06-14T16:01:29+05:30] INFO: Started chef-zero at chefzero://localhost:1 with repository at C:/Users/mpoddar/Desktop/test1
+  One version per cookbook
+
+[2018-06-14T16:01:29+05:30] INFO: *** Chef 13.8.5 ***
+[2018-06-14T16:01:29+05:30] INFO: Platform: x64-mingw32
+[2018-06-14T16:01:29+05:30] INFO: Chef-client pid: 8548
+[2018-06-14T16:01:29+05:30] INFO: The plugin path C:\chef\ohai\plugins does not exist. Skipping...
+[2018-06-14T16:01:34+05:30] INFO: Setting the run_list to ["recipe[demo]"] from CLI options
+[2018-06-14T16:01:34+05:30] INFO: Run List is [recipe[demo]]
+[2018-06-14T16:01:34+05:30] INFO: Run List expands to [demo]
+[2018-06-14T16:01:34+05:30] INFO: Starting Chef Run for TAVDESK120.internal.tavisca.com
+[2018-06-14T16:01:34+05:30] INFO: Running start handlers
+[2018-06-14T16:01:34+05:30] INFO: Start handlers complete.
+[2018-06-14T16:01:34+05:30] INFO: Loading cookbooks [demo@0.1.0]
+[2018-06-14T16:01:34+05:30] INFO: Storing updated cookbooks/demo/recipes/default.rb in the cache.
+[2018-06-14T16:01:34+05:30] INFO: Processing file[C:UsersmpoddarDesktop	est1hello.txt] action create (demo::default line 6)
+[2018-06-14T16:01:34+05:30] INFO: Running queued delayed notifications before re-raising exception
+[2018-06-14T16:01:35+05:30] ERROR: Running exception handlers
+[2018-06-14T16:01:35+05:30] ERROR: Exception handlers complete
+[2018-06-14T16:01:35+05:30] FATAL: Stacktrace dumped to C:/Users/mpoddar/Desktop/test1/.chef/cache/chef-stacktrace.out
+[2018-06-14T16:01:35+05:30] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-06-14T16:01:35+05:30] FATAL: Chef::Exceptions::FileContentStagingError: file[C:UsersmpoddarDesktop	est1hello.txt] (demo::default line 6) had an error: Chef::Exceptions::FileContentStagingError: Staging tempfile can not be created during file deployment.
+ Errors: Creating temp file under 'C:.' failed with: 'Invalid argument @ rb_sysopen - C:./chef-UsersmpoddarDesktop	est1hello20180614-8548-1k13nty.txt'\nCreating temp file under 'C:/Users/mpoddar/AppData/Local/Temp' failed with: 'Invalid argument @ rb_sysopen - C:/Users/mpoddar/AppData/Local/Temp/chef-UsersmpoddarDesktop	est1hello20180614-8548-12xbntd.txt'!
+[2018-06-14T16:02:37+05:30] INFO: Started chef-zero at chefzero://localhost:1 with repository at C:/Users/mpoddar/Desktop/test1
+  One version per cookbook
+
+[2018-06-14T16:02:38+05:30] INFO: *** Chef 13.8.5 ***
+[2018-06-14T16:02:38+05:30] INFO: Platform: x64-mingw32
+[2018-06-14T16:02:38+05:30] INFO: Chef-client pid: 14292
+[2018-06-14T16:02:38+05:30] INFO: The plugin path C:\chef\ohai\plugins does not exist. Skipping...
+[2018-06-14T16:02:42+05:30] INFO: Setting the run_list to ["recipe[demo]"] from CLI options
+[2018-06-14T16:02:42+05:30] INFO: Run List is [recipe[demo]]
+[2018-06-14T16:02:42+05:30] INFO: Run List expands to [demo]
+[2018-06-14T16:02:42+05:30] INFO: Starting Chef Run for TAVDESK120.internal.tavisca.com
+[2018-06-14T16:02:42+05:30] INFO: Running start handlers
+[2018-06-14T16:02:42+05:30] INFO: Start handlers complete.
+[2018-06-14T16:02:43+05:30] INFO: Loading cookbooks [demo@0.1.0]
+[2018-06-14T16:02:43+05:30] INFO: Storing updated cookbooks/demo/recipes/default.rb in the cache.
+[2018-06-14T16:02:43+05:30] INFO: Processing file[C:/Users/mpoddar/Desktop/test1/hello.txt] action create (demo::default line 6)
+[2018-06-14T16:02:43+05:30] INFO: file[C:/Users/mpoddar/Desktop/test1/hello.txt] created file C:/Users/mpoddar/Desktop/test1/hello.txt
+[2018-06-14T16:02:43+05:30] INFO: file[C:/Users/mpoddar/Desktop/test1/hello.txt] updated file contents C:/Users/mpoddar/Desktop/test1/hello.txt
+[2018-06-14T16:02:43+05:30] INFO: Chef Run complete in 0.175384 seconds
+[2018-06-14T16:02:43+05:30] INFO: Running report handlers
+[2018-06-14T16:02:43+05:30] INFO: Report handlers complete
+[2018-06-14T16:02:43+05:30] WARN: *****************************************
+[2018-06-14T16:02:43+05:30] WARN: Did not find config file: C:/solo.rb, using command line options.
+[2018-06-14T16:02:43+05:30] WARN: *****************************************
+[2018-06-14T16:02:43+05:30] FATAL: Cannot load configuration from node.json

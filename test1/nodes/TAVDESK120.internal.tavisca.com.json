@@ -1,0 +1,1540 @@
+{
+  "name": "TAVDESK120.internal.tavisca.com",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "default": {
+    "java": {
+      "file": {
+        "name": "java",
+        "version": "1.8.1",
+        "url": "http://download.oracle.com/otn-pub/java/jdk/8u161-b12/2f38c3b165be4555a1fa6e98c45e0808/jdk-8u161-solaris-x64.tar.gz",
+        "owner": "root",
+        "group": "root",
+        "mode": "0755"
+      }
+    }
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 4,
+        "vendor_id": "GenuineIntel",
+        "family": "205",
+        "model": "15363",
+        "stepping": "3",
+        "physical_id": "CPU0",
+        "model_name": "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz",
+        "description": "Intel64 Family 6 Model 60 Stepping 3",
+        "mhz": "3201",
+        "cache_size": "1024 KB"
+      },
+      "total": 4,
+      "cores": 4,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 499530067,
+        "kb_available": 427206479,
+        "kb_used": 72323588,
+        "percent_used": 14,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "16299",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 10 Pro",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "TAVDESK120",
+        "current_time_zone": 330,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "3129476",
+        "free_space_in_paging_files": "6248192",
+        "free_virtual_memory": "7315996",
+        "install_date": "20180302192850.000000+330",
+        "large_system_cache": null,
+        "last_boot_up_time": "20180612130227.498595+330",
+        "local_date_time": "20180614160239.355000+330",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows 10 Pro|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 199,
+        "number_of_users": 5,
+        "operating_system_sku": 48,
+        "organization": "",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 256,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "Windows User",
+        "serial_number": "00330-80000-00000-AA053",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "6291456",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume2",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "14596564",
+        "total_visible_memory_size": "8305108",
+        "version": "10.0.16299",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows 10 Pro",
+      "release": "10.0.16299",
+      "version": "10.0.16299  Build 16299",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 0,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "bootup_state": "Normal boot",
+        "caption": "TAVDESK120",
+        "chassis_bootup_state": 3,
+        "chassis_sku_number": "To be filled by O.E.M.",
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 330,
+        "daylight_in_effect": null,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "TAVDESK120",
+        "domain": "internal.tavisca.com",
+        "domain_role": 1,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 0,
+        "hypervisor_present": false,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 0,
+        "last_load_info": null,
+        "manufacturer": "Dell Inc.",
+        "model": "OptiPlex 3020",
+        "name": "TAVDESK120",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 4,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "Dell System",
+          "1[0612]",
+          "3[1.0]",
+          "12[www.dell.com]",
+          "14[1]",
+          "15[3]",
+          " "
+        ],
+        "part_of_domain": true,
+        "pause_after_reset": "-1",
+        "pc_system_type": 1,
+        "pc_system_type_ex": 1,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 0,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "Windows User",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": null,
+        "system_sku_number": "0612",
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "8504430592",
+        "user_name": "INTERNAL\\mpoddar",
+        "wake_up_type": 6,
+        "workgroup": null
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "6291456kB",
+        "free": "6248192kB"
+      },
+      "total": "8305108kB",
+      "free": "3129348kB"
+    },
+    "network": {
+      "interfaces": {
+        "0xc": {
+          "configuration": {
+            "ip_address": [
+              "172.16.14.52",
+              "fe80::f03b:789e:f9b6:f599"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000001] Realtek PCIe GBE Family Controller",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "172.16.14.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Realtek PCIe GBE Family Controller",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "19700109053107.000000+330",
+            "dhcp_lease_obtained": "19700101053107.000000+330",
+            "dhcp_server": "172.16.2.2",
+            "dns_domain": "internal.tavisca.com",
+            "dns_domain_suffix_search_order": [
+              "internal.tavisca.com"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "TAVDESK120",
+            "dns_server_search_order": [
+              "172.16.2.2",
+              "172.16.2.3"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 1,
+            "interface_index": 12,
+            "ip_connection_metric": 25,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.254.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "F8:BC:12:A3:31:92",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "rt640x64",
+            "setting_id": "{C6AB3B11-7969-4E70-A59F-143B3FF7990E}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000001] Realtek PCIe GBE Family Controller",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Realtek PCIe GBE Family Controller",
+            "device_id": "1",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{C6AB3B11-7969-4E70-A59F-143B3FF7990E}",
+            "index": 1,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 12,
+            "last_error_code": null,
+            "mac_address": "F8:BC:12:A3:31:92",
+            "manufacturer": "Realtek",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Realtek PCIe GBE Family Controller",
+            "net_connection_id": "Ethernet",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_10EC&DEV_8168&SUBSYS_06121028&REV_0C\\01000000684CE00000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Realtek PCIe GBE Family Controller",
+            "service_name": "rt640x64",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "TAVDESK120",
+            "time_of_last_reset": "20180612130227.498595+330"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "172.16.14.52": {
+              "prefixlen": "23",
+              "netmask": "255.255.254.0",
+              "broadcast": "172.16.15.255",
+              "family": "inet"
+            },
+            "fe80::f03b:789e:f9b6:f599": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "F8:BC:12:A3:31:92": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "172.16.14.1": "f4:4e:05:3d:74:68",
+            "172.16.14.11": "f8:bc:12:a3:31:a5",
+            "172.16.14.12": "1c:c1:de:50:43:08",
+            "172.16.14.13": "f8:bc:12:a3:63:b5",
+            "172.16.14.14": "d4:be:d9:a1:22:d7",
+            "172.16.14.17": "f8:bc:12:a3:31:f3",
+            "172.16.14.19": "78:2b:cb:81:6b:88",
+            "172.16.14.22": "f8:bc:12:a3:36:ff",
+            "172.16.14.25": "d8:d3:85:7f:69:ff",
+            "172.16.14.26": "54:e1:ad:06:99:4d",
+            "172.16.14.31": "f8:bc:12:a3:30:77",
+            "172.16.14.33": "b8:ca:3a:af:25:c5",
+            "172.16.14.34": "c0:3f:d5:49:73:c6",
+            "172.16.14.36": "f8:bc:12:a3:30:49",
+            "172.16.14.37": "c0:3f:d5:49:4b:a6",
+            "172.16.14.38": "c0:3f:d5:49:70:c9",
+            "172.16.14.42": "8c:16:45:18:39:29",
+            "172.16.14.43": "f8:bc:12:a3:31:68",
+            "172.16.14.44": "f8:bc:12:a3:39:df",
+            "172.16.14.45": "f8:bc:12:a3:3b:a6",
+            "172.16.14.47": "1c:c1:de:50:4c:96",
+            "172.16.14.49": "f8:bc:12:a3:31:7a",
+            "172.16.14.51": "c0:3f:d5:49:6e:00",
+            "172.16.14.54": "c0:3f:d5:49:70:a2",
+            "172.16.14.57": "d4:be:d9:a1:1d:f9",
+            "172.16.14.58": "10:78:d2:55:83:6b",
+            "172.16.14.61": "f8:bc:12:a3:36:d5",
+            "172.16.14.63": "c0:3f:d5:49:71:3e",
+            "172.16.14.66": "00:24:1d:a2:8a:47",
+            "172.16.14.67": "d4:be:d9:a1:1d:20",
+            "172.16.14.68": "f8:bc:12:a3:36:d9",
+            "172.16.14.69": "d4:81:d7:5e:99:8b",
+            "172.16.14.70": "d4:be:d9:a1:22:97",
+            "172.16.14.71": "f8:bc:12:a3:3b:15",
+            "172.16.14.72": "f8:bc:12:a3:38:5a",
+            "172.16.14.74": "b8:ca:3a:af:26:8c",
+            "172.16.14.78": "c0:3f:d5:49:4d:ba",
+            "172.16.14.81": "f8:bc:12:a3:36:e9",
+            "172.16.14.83": "b8:ca:3a:af:2a:cc",
+            "172.16.14.87": "78:e3:b5:90:7f:2a",
+            "172.16.14.88": "78:2b:cb:81:62:bc",
+            "172.16.14.89": "f8:bc:12:a3:36:63",
+            "172.16.14.91": "b8:ca:3a:af:2a:86",
+            "172.16.14.92": "c0:3f:d5:49:6e:06",
+            "172.16.14.95": "f8:bc:12:a3:31:11",
+            "172.16.14.96": "d4:85:64:b6:17:84",
+            "172.16.14.98": "c0:3f:d5:58:55:f4",
+            "172.16.14.100": "f8:bc:12:a3:35:ea",
+            "172.16.14.103": "b8:ca:3a:af:2e:02",
+            "172.16.14.104": "f8:bc:12:a3:31:7f",
+            "172.16.14.105": "a0:8c:fd:2e:72:fb",
+            "172.16.14.106": "78:e7:d1:d5:8c:73",
+            "172.16.14.107": "d4:be:d9:a1:a8:bc",
+            "172.16.14.110": "c0:3f:d5:49:4d:1d",
+            "172.16.14.111": "b8:ca:3a:af:2e:3a",
+            "172.16.14.112": "b8:ca:3a:af:23:01",
+            "172.16.14.113": "84:2b:2b:c0:04:ca",
+            "172.16.14.114": "b8:ca:3a:af:2d:bc",
+            "172.16.14.115": "c0:3f:d5:49:73:19",
+            "172.16.14.119": "c0:3f:d5:49:70:ce",
+            "172.16.14.120": "54:e1:ad:61:b4:9f",
+            "172.16.14.121": "b8:ca:3a:76:75:50",
+            "172.16.14.122": "b8:ca:3a:73:67:8b",
+            "172.16.14.123": "18:03:73:7a:01:70",
+            "172.16.14.124": "b8:ca:3a:af:29:c5",
+            "172.16.14.125": "f8:bc:12:a3:31:a2",
+            "172.16.14.127": "d4:be:d9:a1:22:d2",
+            "172.16.14.129": "b8:ca:3a:af:26:84",
+            "172.16.14.132": "c0:3f:d5:49:75:3f",
+            "172.16.14.134": "f8:bc:12:a3:31:25",
+            "172.16.14.135": "8c:16:45:27:fc:83",
+            "172.16.14.136": "d4:be:d9:a1:25:ce",
+            "172.16.14.137": "f8:bc:12:a3:36:13",
+            "172.16.14.142": "e0:db:55:b0:8e:19",
+            "172.16.14.143": "c0:3f:d5:49:75:74",
+            "172.16.14.144": "c0:3f:d5:49:73:b8",
+            "172.16.14.145": "b8:ca:3a:af:2a:9b",
+            "172.16.14.147": "74:86:7a:6f:ca:be",
+            "172.16.14.148": "1c:c1:de:50:49:85",
+            "172.16.14.149": "f8:bc:12:a3:31:93",
+            "172.16.14.150": "f8:bc:12:a3:30:2f",
+            "172.16.14.154": "30:65:ec:47:88:b7",
+            "172.16.14.156": "f8:bc:12:a3:36:d8",
+            "172.16.14.158": "f8:bc:12:a3:37:53",
+            "172.16.14.159": "30:65:ec:45:80:9e",
+            "172.16.14.161": "00:23:ae:97:40:e6",
+            "172.16.14.169": "a0:8c:fd:2e:73:05",
+            "172.16.14.170": "b8:ca:3a:af:26:47",
+            "172.16.14.171": "b8:ca:3a:73:76:bc",
+            "172.16.14.175": "b8:ca:3a:76:73:9f",
+            "172.16.14.177": "c0:3f:d5:49:70:84",
+            "172.16.14.181": "00:21:85:16:9c:98",
+            "172.16.14.182": "84:2b:2b:c0:1d:10",
+            "172.16.14.183": "78:2b:cb:83:2c:e0",
+            "172.16.14.184": "b8:ca:3a:af:24:8a",
+            "172.16.14.188": "b8:ca:3a:73:7c:c8",
+            "172.16.14.189": "f8:bc:12:a3:31:8e",
+            "172.16.14.191": "b8:ca:3a:76:75:39",
+            "172.16.14.195": "b8:ca:3a:af:25:cf",
+            "172.16.14.200": "74:86:7a:1c:53:04",
+            "172.16.14.202": "84:2b:2b:c0:13:65",
+            "172.16.14.204": "f8:bc:12:a3:30:35",
+            "172.16.14.206": "c0:3f:d5:49:73:e6",
+            "172.16.14.210": "c0:3f:d5:49:72:f5",
+            "172.16.14.214": "b8:ca:3a:af:1c:63",
+            "172.16.14.216": "d4:81:d7:5e:9a:f4",
+            "172.16.14.219": "84:2b:2b:c0:1c:cc",
+            "172.16.14.220": "d8:d3:85:7e:b0:25",
+            "172.16.14.221": "c0:3f:d5:49:74:4c",
+            "172.16.14.224": "b8:ca:3a:af:2d:c8",
+            "172.16.14.226": "40:b0:34:be:d1:8a",
+            "172.16.14.230": "d4:be:d9:a1:15:ed",
+            "172.16.14.234": "b8:ca:3a:73:04:66",
+            "172.16.14.235": "d8:d3:85:7e:f6:e4",
+            "172.16.14.237": "f8:bc:12:a3:31:69",
+            "172.16.14.239": "c0:3f:d5:49:73:e2",
+            "172.16.14.241": "78:2b:cb:83:2c:e9",
+            "172.16.14.242": "b8:ca:3a:76:75:5b",
+            "172.16.14.248": "74:86:7a:1c:52:22",
+            "172.16.14.252": "d4:be:d9:a1:22:a7",
+            "172.16.15.1": "b8:ca:3a:73:5e:81",
+            "172.16.15.2": "34:e6:d7:06:ea:14",
+            "172.16.15.3": "e0:db:55:b6:35:f2",
+            "172.16.15.15": "30:65:ec:47:88:b2",
+            "172.16.15.25": "8c:16:45:18:38:ab",
+            "172.16.15.28": "8c:16:45:18:39:26",
+            "172.16.15.36": "28:f1:0e:2c:a7:96",
+            "172.16.15.37": "78:45:c4:a1:82:48",
+            "172.16.15.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.77.124.213": "01:00:5e:4d:7c:d5",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x3": {
+          "configuration": {
+            "ip_address": [
+              "192.168.56.1",
+              "fe80::d933:139e:d54a:41d7"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000010] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "internal.tavisca.com"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "TAVDESK120",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 10,
+            "interface_index": 3,
+            "ip_connection_metric": 25,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:03",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{3A912A40-8836-408F-A75C-53293BCE938A}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000010] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "10",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{3A912A40-8836-408F-A75C-53293BCE938A}",
+            "index": 10,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 3,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:03",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter",
+            "net_connection_id": "VirtualBox Host-Only Network",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "TAVDESK120",
+            "time_of_last_reset": "20180612130227.498595+330"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.56.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.56.255",
+              "family": "inet"
+            },
+            "fe80::d933:139e:d54a:41d7": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:03": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.56.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.252": "01:00:5e:00:00:fc",
+            "239.77.124.213": "01:00:5e:4d:7c:d5",
+            "239.255.255.250": "01:00:5e:7f:ff:fa"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "172.16.14.1",
+      "default_interface": "0xc"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "172.16.14.52",
+    "macaddress": "F8:BC:12:A3:31:92",
+    "ip6address": "fe80::d933:139e:d54a:41d7",
+    "os": "windows",
+    "os_version": "10.0.16299",
+    "platform": "windows",
+    "platform_version": "10.0.16299",
+    "platform_family": "windows",
+    "uptime_seconds": 183613,
+    "uptime": "2 days 03 hours 00 minutes 13 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "java": {
+        "version": "1.8.0_171",
+        "runtime": {
+          "name": "Java(TM) SE Runtime Environment",
+          "build": "1.8.0_171-b11"
+        },
+        "hotspot": {
+          "name": "Java HotSpot(TM) 64-Bit Server VM",
+          "build": "25.171-b11, mixed mode"
+        }
+      },
+      "powershell": {
+        "version": "5.1.16299.251",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.16299.251",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "5.1.16299.251"
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "python": {
+        "version": "2.7.14",
+        "builddate": "Sep 16 2017, 20:19:30"
+      },
+      "ruby": {
+        "platform": "x64-mingw32",
+        "version": "2.5.1",
+        "release_date": "2018-03-29",
+        "target": "x86_64-w64-mingw32",
+        "target_cpu": "x64",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "x86_64-w64-mingw32",
+        "host_cpu": "x86_64",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/Ruby25-x64/bin",
+        "ruby_bin": "C:/Ruby25-x64/bin/ruby",
+        "gems_dir": "C:/Ruby25-x64/lib/ruby/gems/2.5.0",
+        "gem_bin": "C:/Ruby25-x64/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "13.8.5",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "13.8.0",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.8.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud_v2": null,
+    "cloud": null,
+    "command": {
+
+    },
+    "hostname": "TAVDESK120",
+    "machinename": "TAVDESK120",
+    "fqdn": "TAVDESK120.internal.tavisca.com",
+    "domain": "internal.tavisca.com",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1528972362.80407,
+    "packages": {
+      "Git version 2.16.2": {
+        "version": "2.16.2",
+        "publisher": "The Git Development Community",
+        "installdate": "20180312"
+      },
+      "Microsoft Azure Compute Emulator - v2.9.5.3": {
+        "version": "2.9.8699.20",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Notepad++ (64-bit x64)": {
+        "version": "7.5.6",
+        "publisher": "Notepad++ Team"
+      },
+      "Microsoft Office Standard 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft .NET Core SDK - 2.1.4 (x64)": {
+        "version": "2.1.4",
+        "publisher": "Microsoft Corporation"
+      },
+      "IIS Express Application Compatibility Database for x64": {
+
+      },
+      "Microsoft Azure Authoring Tools - v2.9.5.3": {
+        "version": "2.9.8699.20",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "VS Script Debugging Common": {
+        "version": "16.0.76.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft SQL Server 2012 Native Client ": {
+        "version": "11.3.6518.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180305"
+      },
+      "Microsoft Web Deploy 4.0": {
+        "version": "10.0.1988",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "VS WCF Debugging": {
+        "version": "16.0.76.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2017 RC Office Integration (x64)": {
+        "version": "15.129.27509",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180314"
+      },
+      "Microsoft Visual C++ 2017 x64 Minimum Runtime - 14.13.26020": {
+        "version": "14.13.26020",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "7-Zip 16.04 (x64 edition)": {
+        "version": "16.04.00.0",
+        "publisher": "Igor Pavlov",
+        "installdate": "20180302"
+      },
+      "Java 8 Update 171 (64-bit)": {
+        "version": "8.0.1710.11",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180613"
+      },
+      "Microsoft ASP.NET Core 2.0.6 Runtime Package Store (x64)": {
+        "version": "2.0.12620.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Maxx Audio Installer (x64)": {
+        "version": "2.6.6448.1",
+        "publisher": "Waves Audio Ltd.",
+        "installdate": "20180302"
+      },
+      "Microsoft .NET Core Host - 2.0.5 (x64)": {
+        "version": "16.20.26021",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "AWS Command Line Interface": {
+        "version": "1.15.14",
+        "publisher": "Amazon Web Services Developer Relations",
+        "installdate": "20180507"
+      },
+      "McAfee Endpoint Security Threat Prevention": {
+        "version": "10.5.3",
+        "publisher": "McAfee, LLC.",
+        "installdate": "20180305"
+      },
+      "Active Directory Authentication Library for SQL Server": {
+        "version": "13.1.4001.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Chef Development Kit v2.5.3": {
+        "version": "2.5.3.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20180407"
+      },
+      "IntelliTraceProfilerProxy": {
+        "version": "15.0.17289.01",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "DiagnosticsHub_CollectionService": {
+        "version": "15.6.27309",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "IIS 10.0 Express": {
+        "version": "10.0.1741",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Java SE Development Kit 8 Update 171 (64-bit)": {
+        "version": "8.0.1710.11",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180613"
+      },
+      "McAfee Endpoint Security Platform": {
+        "version": "10.5.3",
+        "publisher": "McAfee, LLC.",
+        "installdate": "20180305"
+      },
+      "Microsoft Visual Studio Installer": {
+        "version": "1.15.3245.307",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "Microsoft ASP.NET Core Module for IIS Express": {
+        "version": "1.0.1985",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Core Runtime - 2.0.5 (x64)": {
+        "version": "16.20.26021",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "McAfee Agent": {
+        "version": "5.0.6.220",
+        "publisher": "McAfee, Inc.",
+        "installdate": "20180305"
+      },
+      "McAfee Endpoint Security Adaptive Threat Protection": {
+        "version": "10.5.3",
+        "publisher": "McAfee, LLC.",
+        "installdate": "20180305"
+      },
+      "Microsoft .NET Core Host - 2.0.6 (x64)": {
+        "version": "16.24.26212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Update for Microsoft Office 2010 (KB2794737) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2553371) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2553310) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2553347) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2589320) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2598243) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft OneNote 2010 (KB2837595) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2494150)": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2597087) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2553091)": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2837606) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2825635) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Outlook 2010 (KB2837597) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Outlook Social Connector 2010 (KB2553406) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2589298) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office 2010 Service Pack 1 (SP1)": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Filter Pack 2.0 (KB2878281) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Word 2010 (KB2880529) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2589352) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2687510) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft PowerPoint 2010 (KB2837579) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2687423) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2760631) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2880971) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Excel 2010 (KB2553070)": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft InfoPath 2010 (KB2817369) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Security Update for Microsoft Office 2010 (KB2850016) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2589375) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office Excel MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office PowerPoint MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office Publisher MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office Outlook MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office Word MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office Proof (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Update for Microsoft Office 2010 (KB2687502) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office Proof (French) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Security Update for Microsoft Office 2010 (KB2878284) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office Proof (Spanish) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office Proofing (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office Office 32-bit Components 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Update for Microsoft SharePoint Workspace 2010 (KB2760601) 64-Bit Edition": {
+        "publisher": "Microsoft"
+      },
+      "Update for Microsoft Office 2010 (KB2566458)": {
+        "publisher": "Microsoft"
+      },
+      "Microsoft Office Shared 32-bit MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office Shared MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office OneNote MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft Office Shared Setup Metadata MUI (English) 2010": {
+        "version": "14.0.6029.1000",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180303"
+      },
+      "Microsoft SQL Server 2016 LocalDB ": {
+        "version": "13.1.4001.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft SQL Server 2012 Command Line Utilities ": {
+        "version": "11.3.6020.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Python 2.7.12 (64-bit)": {
+        "version": "2.7.12150",
+        "publisher": "Python Software Foundation",
+        "installdate": "20180308"
+      },
+      "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Oracle VM VirtualBox 5.2.8": {
+        "version": "5.2.8",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180321"
+      },
+      "Microsoft .NET Core Host FX Resolver - 2.0.6 (x64)": {
+        "version": "16.24.26212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "IIS Express Application Compatibility Database for x86": {
+
+      },
+      "Google Chrome": {
+        "version": "67.0.3396.87",
+        "publisher": "Google, Inc.",
+        "installdate": "20180302"
+      },
+      "Microsoft Azure Libraries for .NET – v2.9": {
+        "version": "3.0.0127.060",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual C++ 2017 x64 Additional Runtime - 14.13.26020": {
+        "version": "14.13.26020",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "icecap_collection_x64": {
+        "version": "15.6.27413",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "McAfee Host Intrusion Prevention": {
+        "version": "8.00.1000",
+        "publisher": "McAfee, Inc."
+      },
+      "Microsoft .NET Core Runtime - 2.0.6 (x64)": {
+        "version": "16.24.26212",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Core Host FX Resolver - 2.0.5 (x64)": {
+        "version": "16.20.26021",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "Microsoft Visual Studio Team Foundation Server 2017 RC Office Integration Language Pack (x64) - ENU": {
+        "version": "15.129.27509",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180314"
+      },
+      "Microsoft Visual Studio Code": {
+        "version": "1.21.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180308"
+      },
+      "Microsoft System CLR Types for SQL Server 2017": {
+        "version": "14.0.3006.16",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Core SDK - 2.1.101 (x64)": {
+        "version": "2.1.101",
+        "publisher": "Microsoft Corporation"
+      },
+      "Visual Studio Community 2017": {
+        "version": "15.6.27428.2005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "Microsoft Azure Storage Emulator - v5.4": {
+        "version": "5.4.1811.0037",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "OpenSSH for Windows (remove only)": {
+        "publisher": "Michael Johnson"
+      },
+      "TeamViewer 13": {
+        "version": "13.1.3629",
+        "publisher": "TeamViewer"
+      },
+      "WinSCP 5.13.1": {
+        "version": "5.13.1",
+        "publisher": "Martin Prikryl",
+        "installdate": "20180409"
+      },
+      "vs_filehandler_amd64": {
+        "version": "15.6.27406",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "Python 2.7.14": {
+        "version": "2.7.14150",
+        "publisher": "Python Software Foundation",
+        "installdate": "20180314"
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501": {
+        "version": "12.0.30501.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "icecap_collectionresources": {
+        "version": "15.6.27406",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "icecap_collection_neutral": {
+        "version": "15.6.27413",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_minshellmsi": {
+        "version": "15.6.27421",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "Mozilla Firefox (en-US)": {
+        "version": "50.1.0.0",
+        "publisher": "FrontMotion",
+        "installdate": "20180302"
+      },
+      "Turbo C++ 3.2": {
+        "version": "3.2.3.0",
+        "publisher": "Turbo C++",
+        "installdate": "20180315"
+      },
+      "Microsoft .NET Framework 4.5.2 Multi-Targeting Pack": {
+        "version": "4.5.51651",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_tipsmsi": {
+        "version": "15.0.27005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Realtek Audio COM Components": {
+        "version": "1.0.2",
+        "publisher": "Realtek Semiconductor Corp.",
+        "installdate": "20180302"
+      },
+      "Microsoft TestPlatform SDK Local Feed": {
+        "version": "15.6.0.1398059",
+        "publisher": "Microsoft",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Framework Cumulative Intellisense Pack for Visual Studio (ENU)": {
+        "version": "4.7.02558",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Framework 4.6 Targeting Pack": {
+        "version": "4.6.00081",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Framework 4.6.1 SDK": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_communitymsires": {
+        "version": "15.0.26621",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "TypeScript SDK": {
+        "version": "2.6.5.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Core Runtime - 2.0.7 (x86)": {
+        "version": "2.0.7.26407",
+        "publisher": "Microsoft Corporation"
+      },
+      "Java Auto Updater": {
+        "version": "2.8.171.11",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180613"
+      },
+      "Freshservice Discovery Agent": {
+        "version": "2.4.0",
+        "publisher": "Freshdesk",
+        "installdate": "20180302"
+      },
+      "icecap_collectionresourcesx64": {
+        "version": "15.6.27406",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Framework 4.5 Multi-Targeting Pack": {
+        "version": "4.5.50710",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_SQLClickOnceBootstrappermsi": {
+        "version": "15.0.27005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual C++ 2017 Redistributable (x86) - 14.13.26020": {
+        "version": "14.13.26020.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Google Update Helper": {
+        "version": "1.3.33.17",
+        "publisher": "Google Inc.",
+        "installdate": "20180517"
+      },
+      "Microsoft .NET Framework 4.5.1 Multi-Targeting Pack": {
+        "version": "4.5.50932",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_clickoncesigntoolmsi": {
+        "version": "15.0.27005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_minshellinteropmsi": {
+        "version": "15.6.27323",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_minshellmsires": {
+        "version": "15.0.26621",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "Microsoft NetStandard SDK": {
+        "version": "15.0.51105",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual C++ 2017 Redistributable (x64) - 14.13.26020": {
+        "version": "14.13.26020.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "SSH Secure Shell": {
+
+      },
+      "Microsoft Portable Library Multi-Targeting Pack": {
+        "version": "15.0.26621.02",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual C++ 2017 x86 Additional Runtime - 14.13.26020": {
+        "version": "14.13.26020",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Framework 4.6.1 Targeting Pack": {
+        "version": "4.6.01055",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_FileTracker_Singleton": {
+        "version": "15.6.27309",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "Microsoft Visual C++ 2017 x86 Minimum Runtime - 14.13.26020": {
+        "version": "14.13.26020",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_clickoncebootstrappermsires": {
+        "version": "15.0.27005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Visual F# 10.1 SDK": {
+        "version": "10.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft ASP.NET Diagnostic Pack for Visual Studio": {
+        "version": "15.0.40301.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Jenkins 2.113": {
+        "version": "0.2.113",
+        "publisher": "Jenkins project",
+        "installdate": "20180326"
+      },
+      "Microsoft .NET Core Host - 2.0.7 (x86)": {
+        "version": "16.28.26407",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180509"
+      },
+      "Microsoft ASP.NET Web Tools Packages 15.0 - ENU": {
+        "version": "1.0.21214.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_clickoncebootstrappermsi": {
+        "version": "15.0.27005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Core Host FX Resolver - 2.0.7 (x86)": {
+        "version": "16.28.26407",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180509"
+      },
+      "Microsoft Windows Communication Foundation Diagnostic Pack for x86": {
+        "version": "15.0.27005",
+        "publisher": "Microsoft",
+        "installdate": "20180319"
+      },
+      "vcpp_crt.redist.clickonce": {
+        "version": "14.13.26020",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Portable Library Multi-Targeting Pack Language Pack - enu": {
+        "version": "15.0.26621.02",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_devenvmsi": {
+        "version": "15.0.26621",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "vs_communitymsi": {
+        "version": "15.6.27406",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft .NET Framework 4 Multi-Targeting Pack": {
+        "version": "4.0.30319",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Update for  (KB2504637)": {
+        "version": "1",
+        "publisher": "Microsoft Corporation"
+      },
+      "ClickOnce Bootstrapper Package for Microsoft .NET Framework": {
+        "version": "4.7.02558",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual Studio Setup Configuration": {
+        "version": "1.15.3213.55575",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "vs_filehandler_x86": {
+        "version": "15.6.27406",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180312"
+      },
+      "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219": {
+        "version": "10.0.40219",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180305"
+      },
+      "Intel(R) Processor Graphics": {
+        "version": "20.19.15.4835",
+        "publisher": "Intel Corporation"
+      },
+      "Realtek High Definition Audio Driver": {
+        "version": "6.0.1.6086",
+        "publisher": "Realtek Semiconductor Corp."
+      },
+      "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501": {
+        "version": "12.0.30501.0",
+        "publisher": "Microsoft Corporation"
+      },
+      "Entity Framework 6.1.3 Tools  for Visual Studio 15": {
+        "version": "6.1.60104.0",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      },
+      "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005": {
+        "version": "12.0.21005",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180319"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "India Standard Time"
+    },
+    "recipes": [
+      "demo",
+      "demo::default"
+    ],
+    "expanded_run_list": [
+      "demo::default"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "demo": {
+        "version": "0.1.0"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[demo]"
+  ]
+}
