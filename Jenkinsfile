@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'this is build job'
         git(poll: true, url: 'https://github.com/ManishPoddar895/Assignments.git', branch: 'java')
-        bat 'javac HelloWorld.java '
+        bat(script: 'javac HelloWorld.java ', returnStatus: true, returnStdout: true)
       }
     }
     stage('test') {
