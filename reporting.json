@@ -1,0 +1,22 @@
+
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "CloudFormation template for creating an ec2 instance",
+		
+    "Resources":{
+	
+        "ReportingTool": {
+			"Type": "AWS::Lambda::Function",
+			"Properties": {
+				"Handler": "main.main",
+				"Role": "arn:aws:iam::346319152574:role/EC2CleanupLambdaRole",
+				"Code": {
+					"S3Bucket": "devops-core-reporting-tools",
+					"S3Key": "ec2-health-report-44.zip"
+				},
+				"Runtime": "python3.6",
+				"Timeout": "5"
+			}
+		}
+    }
+}
