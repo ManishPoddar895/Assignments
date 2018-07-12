@@ -12,7 +12,7 @@
 				"Role": "arn:aws:iam::346319152574:role/EC2CleanupLambdaRole",
 				"Code": {
 					"S3Bucket": "devops-core-reporting-tools",
-					"S3Key": "Zip File"
+					"S3Key": "ZipFile"
 				},
 				"Runtime": "python3.6",
 				"Timeout": "5"
