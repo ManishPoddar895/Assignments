@@ -9,7 +9,7 @@
 			"Type": "AWS::Lambda::Function",
 			"Properties": {
 				"Handler": "handler",
-				"Role": "arn:aws:iam::346319152574:role/travel-qa-deployment-role",
+				"Role": "arn:aws:iam::346319152574:role/EC2CleanupLambdaRole",
 				"Code": {
 					"S3Bucket": "devops-core-reporting-tools",
 					"S3Key": "ZipFile"
