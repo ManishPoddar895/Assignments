@@ -9,7 +9,7 @@
 			"Type": "AWS::Lambda::Function",
 			"Properties": {
 				"Handler": "handler",
-				"Role": "role",
+				"Role": "LambdaRole",
 				"Code": {
 					"S3Bucket": "devops-core-reporting-tools",
 					"S3Key": "ZipFile"
