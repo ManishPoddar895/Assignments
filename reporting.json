@@ -1,7 +1,7 @@
 
 {
     "AWSTemplateFormatVersion": "2010-09-09",
-    "Description": "CloudFormation template for creating an ec2 instance",
+    "Description": "CloudFormation template for creating LambdaFunction of reporting tool",
 		
     "Resources":{
 	
