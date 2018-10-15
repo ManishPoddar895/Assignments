@@ -10,12 +10,7 @@ RUN apt-get -y update && \
     apt-get -y install software-properties-common
 
 
-ENV TestCategory regressionAllProducts
-ENV TestEnvironment stage
-ENV EnableMockResponse true
-
-
-
-
-
+ENV TestCategory testcat
+ENV TestEnvironment testenv
+ENV EnableMockResponse enablemockres
 
